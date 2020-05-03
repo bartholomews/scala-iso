@@ -11,7 +11,7 @@ object CountryCodeAlpha2
     extends StringEnum[CountryCodeAlpha2]
     with StringCirceEnum[CountryCodeAlpha2] {
 
-  val values: IndexedSeq[CountryCodeAlpha2] = findValues
+  override val values = findValues
 
   case object AFGHANISTAN extends CountryCodeAlpha2(value = "AF") {
     override val name = "Afghanistan"
