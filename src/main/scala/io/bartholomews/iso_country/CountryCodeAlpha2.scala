@@ -2,6 +2,7 @@ package io.bartholomews.iso_country
 
 import enumeratum.values.{StringCirceEnum, StringEnum, StringEnumEntry}
 
+// https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 sealed abstract class CountryCodeAlpha2(val value: String)
     extends StringEnumEntry {
   def name: String
