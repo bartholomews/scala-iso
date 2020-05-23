@@ -3,3 +3,9 @@
 
 # scala-iso
 Scala library for ISO enums
+
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.bartholomews/scala-iso_2.13/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.bartholomews/scala-iso_2.13)
+
+```
+libraryDependencies += "io.bartholomews" %% "scala-iso" % "<VERSION>"
+```
