@@ -7,7 +7,7 @@ Scala library for ISO enums
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.bartholomews/scala-iso_2.13/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.bartholomews/scala-iso_2.13)
 
 ```
-libraryDependencies += "io.bartholomews" %% "scala-iso" % "<VERSION>"
+libraryDependencies += "io.bartholomews" %% "scala-iso" % "0.1.0"
 ```
 
 ### ISO 3166-1 alpha-2
