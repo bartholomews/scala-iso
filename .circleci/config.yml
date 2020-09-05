@@ -54,7 +54,6 @@ jobs:
 
       - run:
           name: Release
-          context: Sonatype
           command: sbt ci-release
 
 workflows:
@@ -62,6 +61,7 @@ workflows:
   scala_iso:
     jobs:
       - build:
+          context: Sonatype
           filters:
             tags:
               only: /^v\d+\.\d+\.\d+$/
