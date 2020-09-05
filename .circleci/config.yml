@@ -54,6 +54,7 @@ jobs:
 
       - run:
           name: Release
+          context: Sonatype
           command: sbt ci-release
 
 workflows:
