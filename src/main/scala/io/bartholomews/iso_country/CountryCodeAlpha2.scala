@@ -493,6 +493,10 @@ object CountryCodeAlpha2
     override val name = "Kiribati"
   }
 
+  case object KOSOVO extends CountryCodeAlpha2(value = "XK") {
+    override val name = "Kosovo"
+  }
+
   case object KOREA_DEMOCRATIC_PEOPLES_REPUBLIC_OF
       extends CountryCodeAlpha2(value = "KP") {
     override val name = "Korea (Democratic People's Republic of)"
