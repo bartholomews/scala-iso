@@ -1,5 +1,5 @@
 name := "scala-iso"
-scalaVersion := "2.13.2"
+scalaVersion := "2.13.3"
 crossScalaVersions := Seq("2.12.11", "2.13.2")
 
 inThisBuild(List(
@@ -17,6 +17,8 @@ inThisBuild(List(
 ))
 
 libraryDependencies ++= Seq(
+  // https://github.com/lloydmeta/enumeratum/releases
   "com.beachape" %% "enumeratum-circe" % "1.5.23",
+  // https://github.com/circe/circe/releases
   "io.circe" %% "circe-parser" % "0.13.0" % Test
 )

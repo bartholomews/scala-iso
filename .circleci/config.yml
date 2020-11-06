@@ -63,5 +63,7 @@ workflows:
       - build:
           context: Sonatype
           filters:
+            branches:
+              only: master
             tags:
               only: /^v\d+\.\d+\.\d+$/
