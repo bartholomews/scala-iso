@@ -18,7 +18,7 @@ inThisBuild(List(
 
 libraryDependencies ++= Seq(
   // https://github.com/lloydmeta/enumeratum/releases
-  "com.beachape" %% "enumeratum-circe" % "1.5.23",
+  "com.beachape" %% "enumeratum" % "1.6.1",
   // https://github.com/circe/circe/releases
   "io.circe" %% "circe-parser" % "0.13.0" % Test
 )

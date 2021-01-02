@@ -1,6 +1,6 @@
 package io.bartholomews.iso_country
 
-import enumeratum.values.{StringCirceEnum, StringEnum, StringEnumEntry}
+import enumeratum.values.{StringEnum, StringEnumEntry}
 
 // https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 sealed abstract class CountryCodeAlpha2(val value: String)
@@ -8,9 +8,7 @@ sealed abstract class CountryCodeAlpha2(val value: String)
   def name: String
 }
 
-object CountryCodeAlpha2
-    extends StringEnum[CountryCodeAlpha2]
-    with StringCirceEnum[CountryCodeAlpha2] {
+object CountryCodeAlpha2 extends StringEnum[CountryCodeAlpha2] {
 
   override val values = findValues
 
