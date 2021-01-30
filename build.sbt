@@ -1,6 +1,6 @@
 name := "scala-iso"
 scalaVersion := "2.13.3"
-crossScalaVersions := Seq("2.12.11", "2.13.2")
+crossScalaVersions := Seq("2.12.13", "2.13.3")
 
 inThisBuild(List(
   organization := "io.bartholomews",

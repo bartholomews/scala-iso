@@ -1,6 +1,7 @@
 package io.bartholomews.iso_country
 
 import enumeratum.values.{StringEnum, StringEnumEntry}
+import scala.collection.immutable.IndexedSeq
 
 // https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 sealed abstract class CountryCodeAlpha2(val value: String)
@@ -10,7 +11,7 @@ sealed abstract class CountryCodeAlpha2(val value: String)
 
 object CountryCodeAlpha2 extends StringEnum[CountryCodeAlpha2] {
 
-  override val values = findValues
+  override val values: IndexedSeq[CountryCodeAlpha2] = findValues
 
   case object AFGHANISTAN extends CountryCodeAlpha2(value = "AF") {
     override val name = "Afghanistan"
