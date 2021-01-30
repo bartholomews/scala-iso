@@ -8,10 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 ### Removed
+### Changed
+### Fixed
+
+## [0.1.2] - 2020-01-30
+### Removed
 - Circe support, using plain `StringEnum` instead
 ### Changed
 - License to MIT
-### Fixed
 
 ## [0.1.1] - 2020-09-06
 ### Added
@@ -21,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - ISO 3166-1 alpha-2: `CountryCodeAlpha2` values using [enumeratum](https://github.com/lloydmeta/enumeratum)
 
-[Unreleased]: https://github.com/bartholomews/scala-iso/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/bartholomews/scala-iso/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/bartholomews/scala-iso/releases/tag/v0.1.2
 [0.1.1]: https://github.com/bartholomews/scala-iso/releases/tag/v0.1.1
 [0.1.0]: https://github.com/bartholomews/scala-iso/releases/tag/v0.1.0
