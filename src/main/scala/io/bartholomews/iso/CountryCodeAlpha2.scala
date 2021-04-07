@@ -1,4 +1,4 @@
-package io.bartholomews.iso_country
+package io.bartholomews.iso
 
 import enumeratum.values.{StringEnum, StringEnumEntry}
 import scala.collection.immutable.IndexedSeq
