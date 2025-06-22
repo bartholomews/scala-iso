@@ -35,7 +35,7 @@ jobs:
 
       - run:
           name: Compile code
-          command: cat /dev/null | sbt clean compile
+          command: cat /dev/null | sbt clean +compile
 
       - save_cache:
           paths:
@@ -54,7 +54,7 @@ jobs:
 
       - run:
           name: Release
-          command: sbt ci-release
+          command: sbt +ci-release
 
 workflows:
   version: 2
