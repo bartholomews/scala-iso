@@ -4,11 +4,18 @@
 # scala-iso
 Scala library for ISO enums
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.bartholomews/scala-iso_2.13/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.bartholomews/scala-iso_2.13)
+```
+libraryDependencies += "io.bartholomews" %% "scala-iso" % "0.2.0"
+```
 
-```
-libraryDependencies += "io.bartholomews" %% "scala-iso" % "0.1.3"
-```
+### Scala 3
+
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.bartholomews/scala-iso_3/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.bartholomews/scala-iso_3)
+
+
+### Scala 2.13
+
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.bartholomews/scala-iso_2.13/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.bartholomews/scala-iso_2.13)
 
 ### [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
 
