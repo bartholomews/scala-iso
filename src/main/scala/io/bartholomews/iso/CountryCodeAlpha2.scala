@@ -4,8 +4,7 @@ import enumeratum.values.{StringEnum, StringEnumEntry}
 import scala.collection.immutable.IndexedSeq
 
 // https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
-sealed abstract class CountryCodeAlpha2(val value: String)
-    extends StringEnumEntry {
+sealed abstract class CountryCodeAlpha2(val value: String) extends StringEnumEntry {
   def name: String
 }
 
@@ -117,13 +116,11 @@ object CountryCodeAlpha2 extends StringEnum[CountryCodeAlpha2] {
     override val name = "Bhutan"
   }
 
-  case object BOLIVIA_PLURINATIONAL_STATE_OF
-      extends CountryCodeAlpha2(value = "BO") {
+  case object BOLIVIA_PLURINATIONAL_STATE_OF extends CountryCodeAlpha2(value = "BO") {
     override val name = "Bolivia (Plurinational State of)"
   }
 
-  case object BONAIRE_SINT_EUSTATIUS_AND_SABA
-      extends CountryCodeAlpha2(value = "BQ") {
+  case object BONAIRE_SINT_EUSTATIUS_AND_SABA extends CountryCodeAlpha2(value = "BQ") {
     override val name = "Bonaire, Sint Eustatius and Saba"
   }
 
@@ -143,8 +140,7 @@ object CountryCodeAlpha2 extends StringEnum[CountryCodeAlpha2] {
     override val name = "Brazil"
   }
 
-  case object BRITISH_INDIAN_OCEAN_TERRITORY
-      extends CountryCodeAlpha2(value = "IO") {
+  case object BRITISH_INDIAN_OCEAN_TERRITORY extends CountryCodeAlpha2(value = "IO") {
     override val name = "British Indian Ocean Territory"
   }
 
@@ -220,8 +216,7 @@ object CountryCodeAlpha2 extends StringEnum[CountryCodeAlpha2] {
     override val name = "Congo"
   }
 
-  case object CONGO_DEMOCRATIC_REPUBLIC_OF_THE
-      extends CountryCodeAlpha2(value = "CD") {
+  case object CONGO_DEMOCRATIC_REPUBLIC_OF_THE extends CountryCodeAlpha2(value = "CD") {
     override val name = "Congo, Democratic Republic of the"
   }
 
@@ -305,8 +300,7 @@ object CountryCodeAlpha2 extends StringEnum[CountryCodeAlpha2] {
     override val name = "Ethiopia"
   }
 
-  case object FALKLAND_ISLANDS_MALVINAS
-      extends CountryCodeAlpha2(value = "FK") {
+  case object FALKLAND_ISLANDS_MALVINAS extends CountryCodeAlpha2(value = "FK") {
     override val name = "Falkland Islands (Malvinas)"
   }
 
@@ -334,8 +328,7 @@ object CountryCodeAlpha2 extends StringEnum[CountryCodeAlpha2] {
     override val name = "French Polynesia"
   }
 
-  case object FRENCH_SOUTHERN_TERRITORIES
-      extends CountryCodeAlpha2(value = "TF") {
+  case object FRENCH_SOUTHERN_TERRITORIES extends CountryCodeAlpha2(value = "TF") {
     override val name = "French Southern Territories"
   }
 
@@ -407,8 +400,7 @@ object CountryCodeAlpha2 extends StringEnum[CountryCodeAlpha2] {
     override val name = "Haiti"
   }
 
-  case object HEARD_ISLAND_AND_MCDONALD_ISLANDS
-      extends CountryCodeAlpha2(value = "HM") {
+  case object HEARD_ISLAND_AND_MCDONALD_ISLANDS extends CountryCodeAlpha2(value = "HM") {
     override val name = "Heard Island and McDonald Islands"
   }
 
@@ -496,8 +488,7 @@ object CountryCodeAlpha2 extends StringEnum[CountryCodeAlpha2] {
     override val name = "Kosovo"
   }
 
-  case object KOREA_DEMOCRATIC_PEOPLES_REPUBLIC_OF
-      extends CountryCodeAlpha2(value = "KP") {
+  case object KOREA_DEMOCRATIC_PEOPLES_REPUBLIC_OF extends CountryCodeAlpha2(value = "KP") {
     override val name = "Korea (Democratic People's Republic of)"
   }
 
@@ -513,8 +504,7 @@ object CountryCodeAlpha2 extends StringEnum[CountryCodeAlpha2] {
     override val name = "Kyrgyzstan"
   }
 
-  case object LAO_PEOPLES_DEMOCRATIC_REPUBLIC
-      extends CountryCodeAlpha2(value = "LA") {
+  case object LAO_PEOPLES_DEMOCRATIC_REPUBLIC extends CountryCodeAlpha2(value = "LA") {
     override val name = "Lao People's Democratic Republic"
   }
 
@@ -602,8 +592,7 @@ object CountryCodeAlpha2 extends StringEnum[CountryCodeAlpha2] {
     override val name = "Mexico"
   }
 
-  case object MICRONESIA_FEDERATED_STATES_OF
-      extends CountryCodeAlpha2(value = "FM") {
+  case object MICRONESIA_FEDERATED_STATES_OF extends CountryCodeAlpha2(value = "FM") {
     override val name = "Micronesia (Federated States of)"
   }
 
@@ -771,8 +760,7 @@ object CountryCodeAlpha2 extends StringEnum[CountryCodeAlpha2] {
     override val name = "Saint Barthélemy"
   }
 
-  case object SAINT_HELENA_ASCENSION_AND_TRISTAN_DA_CUNHA
-      extends CountryCodeAlpha2(value = "SH") {
+  case object SAINT_HELENA_ASCENSION_AND_TRISTAN_DA_CUNHA extends CountryCodeAlpha2(value = "SH") {
     override val name = "Saint Helena, Ascension and Tristan da Cunha"
   }
 
@@ -788,13 +776,11 @@ object CountryCodeAlpha2 extends StringEnum[CountryCodeAlpha2] {
     override val name = "Saint Martin (French part)"
   }
 
-  case object SAINT_PIERRE_AND_MIQUELON
-      extends CountryCodeAlpha2(value = "PM") {
+  case object SAINT_PIERRE_AND_MIQUELON extends CountryCodeAlpha2(value = "PM") {
     override val name = "Saint Pierre and Miquelon"
   }
 
-  case object SAINT_VINCENT_AND_THE_GRENADINES
-      extends CountryCodeAlpha2(value = "VC") {
+  case object SAINT_VINCENT_AND_THE_GRENADINES extends CountryCodeAlpha2(value = "VC") {
     override val name = "Saint Vincent and the Grenadines"
   }
 
@@ -858,8 +844,7 @@ object CountryCodeAlpha2 extends StringEnum[CountryCodeAlpha2] {
     override val name = "South Africa"
   }
 
-  case object SOUTH_GEORGIA_AND_THE_SOUTH_SANDWICH_ISLANDS
-      extends CountryCodeAlpha2(value = "GS") {
+  case object SOUTH_GEORGIA_AND_THE_SOUTH_SANDWICH_ISLANDS extends CountryCodeAlpha2(value = "GS") {
     override val name = "South Georgia and the South Sandwich Islands"
   }
 
@@ -907,8 +892,7 @@ object CountryCodeAlpha2 extends StringEnum[CountryCodeAlpha2] {
     override val name = "Tajikistan"
   }
 
-  case object TANZANIA_UNITED_REPUBLIC_OF
-      extends CountryCodeAlpha2(value = "TZ") {
+  case object TANZANIA_UNITED_REPUBLIC_OF extends CountryCodeAlpha2(value = "TZ") {
     override val name = "Tanzania, United Republic of"
   }
 
@@ -968,8 +952,7 @@ object CountryCodeAlpha2 extends StringEnum[CountryCodeAlpha2] {
     override val name = "United Arab Emirates"
   }
 
-  case object UNITED_KINGDOM_OF_GREAT_BRITAIN_AND_NORTHERN_IRELAND
-      extends CountryCodeAlpha2(value = "GB") {
+  case object UNITED_KINGDOM_OF_GREAT_BRITAIN_AND_NORTHERN_IRELAND extends CountryCodeAlpha2(value = "GB") {
     override val name = "United Kingdom of Great Britain and Northern Ireland"
   }
 
@@ -977,8 +960,7 @@ object CountryCodeAlpha2 extends StringEnum[CountryCodeAlpha2] {
     override val name = "United States of America"
   }
 
-  case object UNITED_STATES_MINOR_OUTLYING_ISLANDS
-      extends CountryCodeAlpha2(value = "UM") {
+  case object UNITED_STATES_MINOR_OUTLYING_ISLANDS extends CountryCodeAlpha2(value = "UM") {
     override val name = "United States Minor Outlying Islands"
   }
 
@@ -994,8 +976,7 @@ object CountryCodeAlpha2 extends StringEnum[CountryCodeAlpha2] {
     override val name = "Vanuatu"
   }
 
-  case object VENEZUELA_BOLIVARIAN_REPUBLIC_OF
-      extends CountryCodeAlpha2(value = "VE") {
+  case object VENEZUELA_BOLIVARIAN_REPUBLIC_OF extends CountryCodeAlpha2(value = "VE") {
     override val name = "Venezuela (Bolivarian Republic of)"
   }
 
