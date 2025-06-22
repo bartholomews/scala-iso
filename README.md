@@ -11,11 +11,11 @@ libraryDependencies += "io.bartholomews" %% "scala-iso" % "0.2.0"
 
 ### Scala 3
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.bartholomews/scala-iso_3/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.bartholomews/scala-iso_3)
+[![Maven Central](https://img.shields.io/maven-central/v/io.bartholomews/scala-iso_3.svg)](https://central.sonatype.com/artifact/io.bartholomews/scala-iso_3)
 
 ### Scala 2.13
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.bartholomews/scala-iso_2.13/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.bartholomews/scala-iso_2.13)
+[![Maven Central](https://img.shields.io/maven-central/v/io.bartholomews/scala-iso_2.13.svg)](https://central.sonatype.com/artifact/io.bartholomews/scala-iso_2.13)
 
 ### [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
 
