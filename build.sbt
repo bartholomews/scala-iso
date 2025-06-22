@@ -1,5 +1,12 @@
 name := "scala-iso"
-crossScalaVersions := Seq("3.7.0", "2.13.16")
+
+// https://github.com/scala/scala3
+val `scala-3` = "3.7.1"
+// https://github.com/scala/scala
+val `scala-2.13` = "2.13.16"
+
+ThisBuild / scalaVersion       := `scala-3`
+ThisBuild / crossScalaVersions := Seq(`scala-2.13`, `scala-3`)
 
 inThisBuild(
   List(
