@@ -74,7 +74,7 @@ jobs:
 # https://circleci.com/docs/2.0/workflows/#executing-workflows-for-a-git-tag
 workflows:
   version: 2
-  fsclient:
+  default_workflow:
     jobs:
       - build:
           filters:
