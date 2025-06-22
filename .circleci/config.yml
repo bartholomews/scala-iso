@@ -30,37 +30,59 @@ jobs:
             - v1-dependencies-
 
       - run:
-          name: Fetch tags
-          command: git fetch --tags
-
-      - run:
           name: Compile code
-          command: cat /dev/null | sbt clean compile
+          command: cat /dev/null | sbt clean +compile
 
       - save_cache:
           paths:
             - ~/.m2
           key: v1-dependencies--{{ checksum "build.sbt" }}
 
+  release:
+    docker:
+      - image: circleci/openjdk:8-jdk
+
+    # Specify service dependencies here if necessary
+    # CircleCI maintains a library of pre-built images
+    # documented at https://circleci.com/docs/2.0/circleci-images/
+    # - image: circleci/postgres:9.4
+
+    working_directory: ~/repo
+
+    environment:
+      # Customize the JVM maximum heap limit
+      JVM_OPTS: -Xmx3200m
+      TERM: dumb
+
+    steps:
+      - checkout
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "build.sbt" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+
       - run:
-          name: Setup GPG
-          command: |
-            mkdir ~/.gnupg && touch ~/.gnupg/gpg.conf
-            echo use-agent >> ~/.gnupg/gpg.conf
-            echo pinentry-mode loopback >> ~/.gnupg/gpg.conf
-            echo allow-loopback-pinentry >> ~/.gnupg/gpg-agent.conf
-            echo RELOADAGENT | gpg-connect-agent
-            echo $PGP_SECRET | base64 --decode | gpg --import --no-tty --batch --yes
+          name: Fetch tags
+          command: git fetch --tags
 
       - run:
           name: Release
-          command: sbt ci-release
+          command: sbt +ci-release
 
+# https://circleci.com/docs/2.0/workflows/#executing-workflows-for-a-git-tag
 workflows:
   version: 2
-  scala_iso:
+  fsclient:
     jobs:
       - build:
+          filters:
+            tags:
+              only: /^v\d+\.\d+\.\d+$/
+      - release:
+          requires:
+            - build
           context: Sonatype
           filters:
             branches:
