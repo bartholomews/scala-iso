@@ -2,6 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/bartholomews/spotify4s/blob/master/LICENSE)
 
 # scala-iso
+
 Scala library for ISO enums
 
 ```
@@ -12,14 +13,13 @@ libraryDependencies += "io.bartholomews" %% "scala-iso" % "0.2.0"
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.bartholomews/scala-iso_3/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.bartholomews/scala-iso_3)
 
-
 ### Scala 2.13
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.bartholomews/scala-iso_2.13/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.bartholomews/scala-iso_2.13)
 
 ### [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
 
-`CountryCodeAlpha2` is a *StringEnum* 
+`CountryCodeAlpha2` is a *StringEnum*
 (using [enumeratum](https://github.com/lloydmeta/enumeratum) on the two-digits ISO string)
 
 ```scala
@@ -30,8 +30,8 @@ import io.circe.syntax._
 val italy: CountryCodeAlpha2 = CountryCodeAlpha2.ITALY
 
 implicit val encoder: Encoder[CountryCodeAlpha2] = c => Json.fromString(c.value)
-implicit val decoder: Decoder[CountryCodeAlpha2] = Decoder.decodeString.emap(
-  str => CountryCodeAlpha2.values.find(_.value == str).toRight(s"Invalid ISO_3166-1 code: [$str]")
+implicit val decoder: Decoder[CountryCodeAlpha2] = Decoder.decodeString.emap(str =>
+  CountryCodeAlpha2.values.find(_.value == str).toRight(s"Invalid ISO_3166-1 code: [$str]")
 )
 
 assert(italy.asJson == Json.fromString("IT"))
@@ -51,13 +51,41 @@ import io.circe.syntax._
 val italy: LanguageCode = LanguageCode.ITALIAN
 
 implicit val encoder: Encoder[LanguageCode] = c => Json.fromString(c.value)
-implicit val decoder: Decoder[LanguageCode] = Decoder.decodeString.emap(
-  str =>
-    LanguageCode.values
-      .find(_.value == str)
-      .toRight(s"Invalid ISO_639 code: [$str]")
+implicit val decoder: Decoder[LanguageCode] = Decoder.decodeString.emap(str =>
+  LanguageCode.values
+    .find(_.value == str)
+    .toRight(s"Invalid ISO_639 code: [$str]")
 )
 
 assert(italy.asJson == Json.fromString("it"))
 assert("it".asJson.as[LanguageCode].map(_.name) == Right("Italian"))
 ```
+
+## CircleCI deployment
+
+### Verify local configuration
+
+https://circleci.com/docs/2.0/local-cli/
+
+```bash
+circleci config validate
+```
+
+### CI/CD Pipeline
+
+This project is using [sbt-ci-release](https://github.com/olafurpg/sbt-ci-release) plugin:
+
+- Every push to master will trigger a snapshot release.
+- In order to trigger a regular release you need to push a tag:
+
+   ```bash
+   ./scripts/release.sh v?.?.?
+   ```
+
+- If for some reason you need to replace an older version (e.g. the release stage failed):
+
+   ```bash
+   TAG=v?.?.?
+   git push --delete origin ${TAG} && git tag --delete ${TAG} \
+   && ./scripts/release.sh ${TAG}
+   ```
