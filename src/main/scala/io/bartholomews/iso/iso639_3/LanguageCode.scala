@@ -82,12 +82,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object AAM_ARAMANIK extends LanguageCode(value = "aam") {
-    override val name = "Aramanik"
-    override val native: List[String] = List("Aramanik")
-    override val iso639_1: Option[String] = None
-  }
-
   case object AAN_ANAMBE extends LanguageCode(value = "aan") {
     override val name = "Anambé"
     override val native: List[String] = List.empty[String]
@@ -145,12 +139,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object AAX_MANDOBO_ATAS extends LanguageCode(value = "aax") {
     override val name = "Mandobo Atas"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object AAY_AARIYA extends LanguageCode(value = "aay") {
-    override val name = "Aariya"
-    override val native: List[String] = List("Aariya")
     override val iso639_1: Option[String] = None
   }
 
@@ -325,12 +313,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object ACB_ANCA extends LanguageCode(value = "acb") {
     override val name = "Áncá"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object ACC_ACHI_CUBULCO extends LanguageCode(value = "acc") {
-    override val name = "Achí, Cubulco"
-    override val native: List[String] = List("Achí, Cubulco")
     override val iso639_1: Option[String] = None
   }
 
@@ -526,12 +508,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object ADP_ADAP extends LanguageCode(value = "adp") {
-    override val name = "Adap"
-    override val native: List[String] = List("Adap")
-    override val iso639_1: Option[String] = None
-  }
-
   case object ADQ_ADANGBE extends LanguageCode(value = "adq") {
     override val name = "Adangbe"
     override val native: List[String] = List.empty[String]
@@ -667,12 +643,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object AEW_AMBAKICH extends LanguageCode(value = "aew") {
     override val name = "Ambakich"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object AEX_AMERAX extends LanguageCode(value = "aex") {
-    override val name = "Amerax"
-    override val native: List[String] = List("Amerax")
     override val iso639_1: Option[String] = None
   }
 
@@ -868,12 +838,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object AGP_PARANAN extends LanguageCode(value = "agp") {
-    override val name = "Paranan"
-    override val native: List[String] = List("Paranan")
-    override val iso639_1: Option[String] = None
-  }
-
   case object AGQ_AGHEM extends LanguageCode(value = "agq") {
     override val name = "Aghem"
     override val native: List[String] = List("aghím")
@@ -943,12 +907,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object AHB_AXAMB extends LanguageCode(value = "ahb") {
     override val name = "Axamb"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object AHE_AHE extends LanguageCode(value = "ahe") {
-    override val name = "Ahe"
-    override val native: List[String] = List("Ahe")
     override val iso639_1: Option[String] = None
   }
 
@@ -1132,12 +1090,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object AIS_AMIS_NATAORAN extends LanguageCode(value = "ais") {
-    override val name = "Amis, Nataoran"
-    override val native: List[String] = List("Amis, Nataoran")
-    override val iso639_1: Option[String] = None
-  }
-
   case object AIT_ARIKEM extends LanguageCode(value = "ait") {
     override val name = "Arikem"
     override val native: List[String] = List.empty[String]
@@ -1159,12 +1111,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object AIY_ALI extends LanguageCode(value = "aiy") {
     override val name = "Ali"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object AIZ_AARI extends LanguageCode(value = "aiz") {
-    override val name = "Aari"
-    override val native: List[String] = List("Aari")
     override val iso639_1: Option[String] = None
   }
 
@@ -1192,21 +1138,9 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object AJP_ARABIC_SOUTH_LEVANTINE extends LanguageCode(value = "ajp") {
-    override val name = "Arabic (South Levantine)"
-    override val native: List[String] = List("Arabic (South Levantine)")
-    override val iso639_1: Option[String] = None
-  }
-
   case object AJS_ALGERIAN_JEWISH_SIGN_LANGUAGE extends LanguageCode(value = "ajs") {
     override val name = "Algerian Jewish Sign Language"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object AJT_ARABIC_JUDEO_TUNISIAN extends LanguageCode(value = "ajt") {
-    override val name = "Arabic (Judeo-Tunisian)"
-    override val native: List[String] = List("Arabic (Judeo-Tunisian)")
     override val iso639_1: Option[String] = None
   }
 
@@ -1303,12 +1237,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object AKM_AKA_BO extends LanguageCode(value = "akm") {
     override val name = "Aka-Bo"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object AKN_AMIKOANA extends LanguageCode(value = "akn") {
-    override val name = "Amikoana"
-    override val native: List[String] = List("Amikoana")
     override val iso639_1: Option[String] = None
   }
 
@@ -1537,12 +1465,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object AMC_AMAHUACA extends LanguageCode(value = "amc") {
     override val name = "Amahuaca"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object AMD_AMAPA_CREOLE extends LanguageCode(value = "amd") {
-    override val name = "Amapá Creole"
-    override val native: List[String] = List("Amapá Creole")
     override val iso639_1: Option[String] = None
   }
 
@@ -1876,12 +1798,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object AOH_ARMA extends LanguageCode(value = "aoh") {
-    override val name = "Arma"
-    override val native: List[String] = List("Arma")
-    override val iso639_1: Option[String] = None
-  }
-
   case object AOI_ANINDILYAKWA extends LanguageCode(value = "aoi") {
     override val name = "Anindilyakwa"
     override val native: List[String] = List.empty[String]
@@ -2194,12 +2110,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object ARF_ARAFUNDI extends LanguageCode(value = "arf") {
-    override val name = "Arafundi"
-    override val native: List[String] = List("Arafundi")
-    override val iso639_1: Option[String] = None
-  }
-
   case object ARG_ARAGONESE extends LanguageCode(value = "arg") {
     override val name = "Aragonese"
     override val native: List[String] = List("aragonés")
@@ -2323,12 +2233,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object ASC_CASUARINA_COAST_ASMAT extends LanguageCode(value = "asc") {
     override val name = "Casuarina Coast Asmat"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object ASD_ASAS extends LanguageCode(value = "asd") {
-    override val name = "Asas"
-    override val native: List[String] = List("Asas")
     override val iso639_1: Option[String] = None
   }
 
@@ -2494,12 +2398,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object ATF_ATUENCE extends LanguageCode(value = "atf") {
-    override val name = "Atuence"
-    override val native: List[String] = List("Atuence")
-    override val iso639_1: Option[String] = None
-  }
-
   case object ATG_IVBIE_NORTH_OKPELA_ARHE extends LanguageCode(value = "atg") {
     override val name = "Ivbie North-Okpela-Arhe"
     override val native: List[String] = List.empty[String]
@@ -2638,12 +2536,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object AUE_KXAUEIN extends LanguageCode(value = "aue") {
-    override val name = "ǂKx’auǁ’ein"
-    override val native: List[String] = List("ǂKx’auǁ’ein")
-    override val iso639_1: Option[String] = None
-  }
-
   case object AUG_AGUNA extends LanguageCode(value = "aug") {
     override val name = "Aguna"
     override val native: List[String] = List.empty[String]
@@ -2725,12 +2617,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object AUU_AUYE extends LanguageCode(value = "auu") {
     override val name = "Auye"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object AUV_AUVERGNAT extends LanguageCode(value = "auv") {
-    override val name = "Auvergnat"
-    override val native: List[String] = List("Auvergnat")
     override val iso639_1: Option[String] = None
   }
 
@@ -3112,18 +2998,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object AYX_AYI_CHINA extends LanguageCode(value = "ayx") {
-    override val name = "Ayi (China)"
-    override val native: List[String] = List("Ayi (China)")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object AYY_AYTA_TAYABAS extends LanguageCode(value = "ayy") {
-    override val name = "Ayta, Tayabas"
-    override val native: List[String] = List("Ayta, Tayabas")
-    override val iso639_1: Option[String] = None
-  }
-
   case object AYZ_MAI_BRAT extends LanguageCode(value = "ayz") {
     override val name = "Mai Brat"
     override val native: List[String] = List.empty[String]
@@ -3181,12 +3055,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object AZO_AWING extends LanguageCode(value = "azo") {
     override val name = "Awing"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object AZR_ADZERA extends LanguageCode(value = "azr") {
-    override val name = "Adzera"
-    override val native: List[String] = List("Adzera")
     override val iso639_1: Option[String] = None
   }
 
@@ -3325,12 +3193,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object BAY_BATULEY extends LanguageCode(value = "bay") {
     override val name = "Batuley"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object BAZ_TUNEN extends LanguageCode(value = "baz") {
-    override val name = "Tunen"
-    override val native: List[String] = List("Tunen")
     override val iso639_1: Option[String] = None
   }
 
@@ -3484,12 +3346,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object BBZ_ARABIC_BABALIA_CREOLE extends LanguageCode(value = "bbz") {
-    override val name = "Arabic, Babalia Creole"
-    override val native: List[String] = List("Arabic, Babalia Creole")
-    override val iso639_1: Option[String] = None
-  }
-
   case object BCA_CENTRAL_BAI extends LanguageCode(value = "bca") {
     override val name = "Central Bai"
     override val native: List[String] = List("Baip‧ngvp‧zix")
@@ -3625,12 +3481,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object BCW_BANA extends LanguageCode(value = "bcw") {
     override val name = "Bana"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object BCX_PAMONA extends LanguageCode(value = "bcx") {
-    override val name = "Pamona"
-    override val native: List[String] = List("Pamona")
     override val iso639_1: Option[String] = None
   }
 
@@ -4144,12 +3994,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object BGH_BOGAN extends LanguageCode(value = "bgh") {
-    override val name = "Bogan"
-    override val native: List[String] = List("Bogan")
-    override val iso639_1: Option[String] = None
-  }
-
   case object BGI_GIANGAN extends LanguageCode(value = "bgi") {
     override val name = "Giangan"
     override val native: List[String] = List.empty[String]
@@ -4171,12 +4015,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object BGL_BO_LAOS extends LanguageCode(value = "bgl") {
     override val name = "Bo (Laos)"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object BGM_BAGA_MBOTENI extends LanguageCode(value = "bgm") {
-    override val name = "Baga Mboteni"
-    override val native: List[String] = List("Baga Mboteni")
     override val iso639_1: Option[String] = None
   }
 
@@ -4318,12 +4156,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object BHK_BICOLANO_ALBAY extends LanguageCode(value = "bhk") {
-    override val name = "Bicolano, Albay"
-    override val native: List[String] = List("Bicolano, Albay")
-    override val iso639_1: Option[String] = None
-  }
-
   case object BHL_BIMIN extends LanguageCode(value = "bhl") {
     override val name = "Bimin"
     override val native: List[String] = List.empty[String]
@@ -4426,12 +4258,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object BIC_BIKARU extends LanguageCode(value = "bic") {
-    override val name = "Bikaru"
-    override val native: List[String] = List("Bikaru")
-    override val iso639_1: Option[String] = None
-  }
-
   case object BID_BIDIYO extends LanguageCode(value = "bid") {
     override val name = "Bidiyo"
     override val native: List[String] = List.empty[String]
@@ -4453,18 +4279,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object BIG_BIANGAI extends LanguageCode(value = "big") {
     override val name = "Biangai"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object BII_BISU extends LanguageCode(value = "bii") {
-    override val name = "Bisu"
-    override val native: List[String] = List("Bisu")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object BIJ_VAGHAT_YA_BIJIM_LEGERI extends LanguageCode(value = "bij") {
-    override val name = "Vaghat-Ya-Bijim-Legeri"
-    override val native: List[String] = List("Vaghat-Ya-Bijim-Legeri")
     override val iso639_1: Option[String] = None
   }
 
@@ -4582,12 +4396,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object BJD_BANDJIGALI extends LanguageCode(value = "bjd") {
-    override val name = "Bandjigali"
-    override val native: List[String] = List("Bandjigali")
-    override val iso639_1: Option[String] = None
-  }
-
   case object BJE_BIAO_JIAO_MIEN extends LanguageCode(value = "bje") {
     override val name = "Biao-Jiao Mien"
     override val native: List[String] = List.empty[String]
@@ -4660,12 +4468,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object BJQ_MALAGASY_SOUTHERN_BETSIMISARAKA extends LanguageCode(value = "bjq") {
-    override val name = "Malagasy, Southern Betsimisaraka"
-    override val native: List[String] = List("Malagasy, Southern Betsimisaraka")
-    override val iso639_1: Option[String] = None
-  }
-
   case object BJR_BINUMARIEN extends LanguageCode(value = "bjr") {
     override val name = "Binumarien"
     override val native: List[String] = List.empty[String]
@@ -4726,12 +4528,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object BKB_FINALLIG extends LanguageCode(value = "bkb") {
-    override val name = "Finallig"
-    override val native: List[String] = List("Finallig")
-    override val iso639_1: Option[String] = None
-  }
-
   case object BKC_BAKA_CAMEROON extends LanguageCode(value = "bkc") {
     override val name = "Baka (Cameroon)"
     override val native: List[String] = List.empty[String]
@@ -4741,12 +4537,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object BKD_BINUKID extends LanguageCode(value = "bkd") {
     override val name = "Binukid"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object BKE_BENGKULU extends LanguageCode(value = "bke") {
-    override val name = "Bengkulu"
-    override val native: List[String] = List("Bengkulu")
     override val iso639_1: Option[String] = None
   }
 
@@ -4912,12 +4702,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object BLG_BALAU extends LanguageCode(value = "blg") {
-    override val name = "Balau"
-    override val native: List[String] = List("Balau")
-    override val iso639_1: Option[String] = None
-  }
-
   case object BLH_KUWAA extends LanguageCode(value = "blh") {
     override val name = "Kuwaa"
     override val native: List[String] = List.empty[String]
@@ -4993,12 +4777,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object BLT_TAI_DAM extends LanguageCode(value = "blt") {
     override val name = "Tai Dam"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object BLU_HMONG_NJUA extends LanguageCode(value = "blu") {
-    override val name = "Hmong Njua"
-    override val native: List[String] = List("Hmong Njua")
     override val iso639_1: Option[String] = None
   }
 
@@ -5176,12 +4954,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object BMY_BEMBA_DEMOCRATIC_REPUBLIC_OF_CONGO extends LanguageCode(value = "bmy") {
-    override val name = "Bemba (Democratic Republic of Congo)"
-    override val native: List[String] = List("Bemba (Democratic Republic of Congo)")
-    override val iso639_1: Option[String] = None
-  }
-
   case object BMZ_BARAMU extends LanguageCode(value = "bmz") {
     override val name = "Baramu"
     override val native: List[String] = List.empty[String]
@@ -5227,12 +4999,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object BNG_BENGA extends LanguageCode(value = "bng") {
     override val name = "Benga"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object BNH_BANAWA extends LanguageCode(value = "bnh") {
-    override val name = "Banawá"
-    override val native: List[String] = List("Banawá")
     override val iso639_1: Option[String] = None
   }
 
@@ -5347,12 +5113,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object BOB_AWEER extends LanguageCode(value = "bob") {
     override val name = "Aweer"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object BOC_BAKUNG_KENYAH extends LanguageCode(value = "boc") {
-    override val name = "Bakung Kenyah"
-    override val native: List[String] = List("Bakung Kenyah")
     override val iso639_1: Option[String] = None
   }
 
@@ -5497,12 +5257,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object BPA_DAAKAKA extends LanguageCode(value = "bpa") {
     override val name = "Daakaka"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object BPB_BARBACOAS extends LanguageCode(value = "bpb") {
-    override val name = "Barbacoas"
-    override val native: List[String] = List("Barbacoas")
     override val iso639_1: Option[String] = None
   }
 
@@ -5665,12 +5419,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object BQD_BUNG extends LanguageCode(value = "bqd") {
     override val name = "Bung"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object BQE_NAVARRO_LABOURDIN_BASQUE extends LanguageCode(value = "bqe") {
-    override val name = "Navarro-Labourdin Basque"
-    override val native: List[String] = List("Navarro-Labourdin Basque")
     override val iso639_1: Option[String] = None
   }
 
@@ -5974,12 +5722,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object BSD_SARAWAK_BISAYA extends LanguageCode(value = "bsd") {
-    override val name = "Sarawak Bisaya"
-    override val native: List[String] = List("Sarawak Bisaya")
-    override val iso639_1: Option[String] = None
-  }
-
   case object BSE_WUSHI extends LanguageCode(value = "bse") {
     override val name = "Wushi"
     override val native: List[String] = List.empty[String]
@@ -6106,21 +5848,9 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object BSZ_SOULETIN_BASQUE extends LanguageCode(value = "bsz") {
-    override val name = "Souletin Basque"
-    override val native: List[String] = List("Souletin Basque")
-    override val iso639_1: Option[String] = None
-  }
-
   case object BTA_BATA extends LanguageCode(value = "bta") {
     override val name = "Bata"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object BTB_BETI_CAMEROON extends LanguageCode(value = "btb") {
-    override val name = "Beti (Cameroon)"
-    override val native: List[String] = List("Beti (Cameroon)")
     override val iso639_1: Option[String] = None
   }
 
@@ -6169,12 +5899,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object BTJ_BACANESE_MALAY extends LanguageCode(value = "btj") {
     override val name = "Bacanese Malay"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object BTL_BHATOLA extends LanguageCode(value = "btl") {
-    override val name = "Bhatola"
-    override val native: List[String] = List("Bhatola")
     override val iso639_1: Option[String] = None
   }
 
@@ -6520,12 +6244,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object BVS_BELGIAN_SIGN_LANGUAGE extends LanguageCode(value = "bvs") {
-    override val name = "Belgian Sign Language"
-    override val native: List[String] = List("Belgian Sign Language")
-    override val iso639_1: Option[String] = None
-  }
-
   case object BVT_BATI_INDONESIA extends LanguageCode(value = "bvt") {
     override val name = "Bati (Indonesia)"
     override val native: List[String] = List.empty[String]
@@ -6694,12 +6412,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object BWV_BAHAU_RIVER_KENYAH extends LanguageCode(value = "bwv") {
-    override val name = "Bahau River Kenyah"
-    override val native: List[String] = List("Bahau River Kenyah")
-    override val iso639_1: Option[String] = None
-  }
-
   case object BWW_BWA extends LanguageCode(value = "bww") {
     override val name = "Bwa"
     override val native: List[String] = List.empty[String]
@@ -6838,12 +6550,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object BXT_BUXINHUA extends LanguageCode(value = "bxt") {
-    override val name = "Buxinhua"
-    override val native: List[String] = List("Buxinhua")
-    override val iso639_1: Option[String] = None
-  }
-
   case object BXU_CHINA_BURIAT extends LanguageCode(value = "bxu") {
     override val name = "China Buriat"
     override val native: List[String] = List.empty[String]
@@ -6859,12 +6565,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object BXW_BANKAGOOMA extends LanguageCode(value = "bxw") {
     override val name = "Bankagooma"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object BXX_BORNA extends LanguageCode(value = "bxx") {
-    override val name = "Borna"
-    override val native: List[String] = List("Borna")
     override val iso639_1: Option[String] = None
   }
 
@@ -6994,12 +6694,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object BYU_BUYANG extends LanguageCode(value = "byu") {
-    override val name = "Buyang"
-    override val native: List[String] = List("Buyang")
-    override val iso639_1: Option[String] = None
-  }
-
   case object BYV_MEDUMBA extends LanguageCode(value = "byv") {
     override val name = "Medumba"
     override val native: List[String] = List.empty[String]
@@ -7015,12 +6709,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object BYX_QAQET extends LanguageCode(value = "byx") {
     override val name = "Qaqet"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object BYY_BUYA extends LanguageCode(value = "byy") {
-    override val name = "Buya"
-    override val native: List[String] = List("Buya")
     override val iso639_1: Option[String] = None
   }
 
@@ -7348,21 +7036,9 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object CBE_CHIPIAJES extends LanguageCode(value = "cbe") {
-    override val name = "Chipiajes"
-    override val native: List[String] = List("Chipiajes")
-    override val iso639_1: Option[String] = None
-  }
-
   case object CBG_CHIMILA extends LanguageCode(value = "cbg") {
     override val name = "Chimila"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object CBH_CAGUA extends LanguageCode(value = "cbh") {
-    override val name = "Cagua"
-    override val native: List[String] = List("Cagua")
     override val iso639_1: Option[String] = None
   }
 
@@ -7387,12 +7063,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object CBL_BUALKHAW_CHIN extends LanguageCode(value = "cbl") {
     override val name = "Bualkhaw Chin"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object CBM_CAKCHIQUEL_YEPOCAPA_SOUTHWESTERN extends LanguageCode(value = "cbm") {
-    override val name = "Cakchiquel, Yepocapa Southwestern"
-    override val native: List[String] = List("Cakchiquel, Yepocapa Southwestern")
     override val iso639_1: Option[String] = None
   }
 
@@ -7456,12 +7126,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object CCA_CAUCA extends LanguageCode(value = "cca") {
-    override val name = "Cauca"
-    override val native: List[String] = List("Cauca")
-    override val iso639_1: Option[String] = None
-  }
-
   case object CCC_CHAMICURO extends LanguageCode(value = "ccc") {
     override val name = "Chamicuro"
     override val native: List[String] = List.empty[String]
@@ -7522,27 +7186,9 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object CCQ_CHAUNGTHA extends LanguageCode(value = "ccq") {
-    override val name = "Chaungtha"
-    override val native: List[String] = List("Chaungtha")
-    override val iso639_1: Option[String] = None
-  }
-
   case object CCR_CACAOPERA extends LanguageCode(value = "ccr") {
     override val name = "Cacaopera"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object CCX_NORTHERN_ZHUANG extends LanguageCode(value = "ccx") {
-    override val name = "Northern Zhuang"
-    override val native: List[String] = List("Northern Zhuang")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object CCY_SOUTHERN_ZHUANG extends LanguageCode(value = "ccy") {
-    override val name = "Southern Zhuang"
-    override val native: List[String] = List("Southern Zhuang")
     override val iso639_1: Option[String] = None
   }
 
@@ -7561,12 +7207,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object CDF_CHIRU extends LanguageCode(value = "cdf") {
     override val name = "Chiru"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object CDG_CHAMARI extends LanguageCode(value = "cdg") {
-    override val name = "Chamari"
-    override val native: List[String] = List("Chamari")
     override val iso639_1: Option[String] = None
   }
 
@@ -7828,12 +7468,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object CHS_CHUMASH extends LanguageCode(value = "chs") {
-    override val name = "Chumash"
-    override val native: List[String] = List("Chumash")
-    override val iso639_1: Option[String] = None
-  }
-
   case object CHT_CHOLON extends LanguageCode(value = "cht") {
     override val name = "Cholón"
     override val native: List[String] = List.empty[String]
@@ -7942,12 +7576,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object CIT_CHITTAGONIAN extends LanguageCode(value = "cit") {
-    override val name = "Chittagonian"
-    override val native: List[String] = List("চাঁটগাঁইয়া")
-    override val iso639_1: Option[String] = None
-  }
-
   case object CIW_CHIPPEWA extends LanguageCode(value = "ciw") {
     override val name = "Chippewa"
     override val native: List[String] = List("ᐊᓂᐦᔑᓈᐯᒧᐧᐃᓐ / ᐅᒋᐧᐯᒧᐧᐃᓐ (Anishinaabemowin / Ojibwemowin)")
@@ -8014,12 +7642,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object CJR_CHOROTEGA extends LanguageCode(value = "cjr") {
-    override val name = "Chorotega"
-    override val native: List[String] = List("Chorotega")
-    override val iso639_1: Option[String] = None
-  }
-
   case object CJS_SHOR extends LanguageCode(value = "cjs") {
     override val name = "Shor"
     override val native: List[String] = List("Шор")
@@ -8038,63 +7660,15 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object CKA_CHIN_KHUMI_AWA extends LanguageCode(value = "cka") {
-    override val name = "Chin, Khumi Awa"
-    override val native: List[String] = List("Chin, Khumi Awa")
-    override val iso639_1: Option[String] = None
-  }
-
   case object CKB_CENTRAL_KURDISH extends LanguageCode(value = "ckb") {
     override val name = "Central Kurdish"
     override val native: List[String] = List("کوردی")
     override val iso639_1: Option[String] = None
   }
 
-  case object CKC_CAKCHIQUEL_NORTHERN extends LanguageCode(value = "ckc") {
-    override val name = "Cakchiquel, Northern"
-    override val native: List[String] = List("Cakchiquel, Northern")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object CKD_CAKCHIQUEL_SOUTH_CENTRAL extends LanguageCode(value = "ckd") {
-    override val name = "Cakchiquel, South Central"
-    override val native: List[String] = List("Cakchiquel, South Central")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object CKE_CAKCHIQUEL_EASTERN extends LanguageCode(value = "cke") {
-    override val name = "Cakchiquel, Eastern"
-    override val native: List[String] = List("Cakchiquel, Eastern")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object CKF_CAKCHIQUEL_SOUTHERN extends LanguageCode(value = "ckf") {
-    override val name = "Cakchiquel, Southern"
-    override val native: List[String] = List("Cakchiquel, Southern")
-    override val iso639_1: Option[String] = None
-  }
-
   case object CKH_CHAK extends LanguageCode(value = "ckh") {
     override val name = "Chak"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object CKI_CAKCHIQUEL_SANTA_MARIA_DE_JESUS extends LanguageCode(value = "cki") {
-    override val name = "Cakchiquel, Santa María De Jesús"
-    override val native: List[String] = List("Cakchiquel, Santa María De Jesús")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object CKJ_CAKCHIQUEL_SANTO_DOMINGO_XENACOJ extends LanguageCode(value = "ckj") {
-    override val name = "Cakchiquel, Santo Domingo Xenacoj"
-    override val native: List[String] = List("Cakchiquel, Santo Domingo Xenacoj")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object CKK_CAKCHIQUEL_ACATENANGO_SOUTHWESTERN extends LanguageCode(value = "ckk") {
-    override val name = "Cakchiquel, Acatenango Southwestern"
-    override val native: List[String] = List("Cakchiquel, Acatenango Southwestern")
     override val iso639_1: Option[String] = None
   }
 
@@ -8155,12 +7729,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object CKV_KAVALAN extends LanguageCode(value = "ckv") {
     override val name = "Kavalan"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object CKW_CAKCHIQUEL_WESTERN extends LanguageCode(value = "ckw") {
-    override val name = "Cakchiquel, Western"
-    override val native: List[String] = List("Cakchiquel, Western")
     override val iso639_1: Option[String] = None
   }
 
@@ -8302,12 +7870,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object CMK_CHIMAKUM extends LanguageCode(value = "cmk") {
-    override val name = "Chimakum"
-    override val native: List[String] = List("Chimakum")
-    override val iso639_1: Option[String] = None
-  }
-
   case object CML_CAMPALAGIAN extends LanguageCode(value = "cml") {
     override val name = "Campalagian"
     override val native: List[String] = List.empty[String]
@@ -8395,12 +7957,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object CNL_LALANA_CHINANTEC extends LanguageCode(value = "cnl") {
     override val name = "Lalana Chinantec"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object CNM_CHUJ_IXTATAN extends LanguageCode(value = "cnm") {
-    override val name = "Chuj, Ixtatán"
-    override val native: List[String] = List("Chuj, Ixtatán")
     override val iso639_1: Option[String] = None
   }
 
@@ -8596,12 +8152,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object COY_COYAIMA extends LanguageCode(value = "coy") {
-    override val name = "Coyaima"
-    override val native: List[String] = List("Coyaima")
-    override val iso639_1: Option[String] = None
-  }
-
   case object COZ_CHOCHOTEC extends LanguageCode(value = "coz") {
     override val name = "Chochotec"
     override val native: List[String] = List.empty[String]
@@ -8677,12 +8227,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object CQD_CHUANQIANDIAN_CLUSTER_MIAO extends LanguageCode(value = "cqd") {
     override val name = "Chuanqiandian Cluster Miao"
     override val native: List[String] = List("lug Moob")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object CQU_QUECHUA_CHILEAN extends LanguageCode(value = "cqu") {
-    override val name = "Quechua, Chilean"
-    override val native: List[String] = List("Quechua, Chilean")
     override val iso639_1: Option[String] = None
   }
 
@@ -8797,12 +8341,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object CRT_IYOJWAJA_CHOROTE extends LanguageCode(value = "crt") {
     override val name = "Iyojwa'ja Chorote"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object CRU_CARUTANA extends LanguageCode(value = "cru") {
-    override val name = "Carútana"
-    override val native: List[String] = List("Carútana")
     override val iso639_1: Option[String] = None
   }
 
@@ -9022,12 +8560,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object CTI_CHOL_TILA extends LanguageCode(value = "cti") {
-    override val name = "Chol, Tila"
-    override val native: List[String] = List("Chol, Tila")
-    override val iso639_1: Option[String] = None
-  }
-
   case object CTL_TLACOATZINTEPEC_CHINANTEC extends LanguageCode(value = "ctl") {
     override val name = "Tlacoatzintepec Chinantec"
     override val native: List[String] = List.empty[String]
@@ -9106,12 +8638,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object CUG_CUNG extends LanguageCode(value = "cug") {
-    override val name = "Cung"
-    override val native: List[String] = List("Cung")
-    override val iso639_1: Option[String] = None
-  }
-
   case object CUH_CHUKA extends LanguageCode(value = "cuh") {
     override val name = "Chuka"
     override val native: List[String] = List.empty[String]
@@ -9139,18 +8665,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object CUL_CULINA extends LanguageCode(value = "cul") {
     override val name = "Culina"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object CUM_CUMERAL extends LanguageCode(value = "cum") {
-    override val name = "Cumeral"
-    override val native: List[String] = List("Cumeral")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object CUN_QUICHE_CUNEN extends LanguageCode(value = "cun") {
-    override val name = "Quiché, Cunén"
-    override val native: List[String] = List("Quiché, Cunén")
     override val iso639_1: Option[String] = None
   }
 
@@ -9346,12 +8860,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object DAF_DAN extends LanguageCode(value = "daf") {
-    override val name = "Dan"
-    override val native: List[String] = List("Dan")
-    override val iso639_1: Option[String] = None
-  }
-
   case object DAG_DAGBANI extends LanguageCode(value = "dag") {
     override val name = "Dagbani"
     override val native: List[String] = List.empty[String]
@@ -9406,12 +8914,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object DAP_NISI extends LanguageCode(value = "dap") {
-    override val name = "Nisi"
-    override val native: List[String] = List("Nisi")
-    override val iso639_1: Option[String] = None
-  }
-
   case object DAQ_DANDAMI_MARIA extends LanguageCode(value = "daq") {
     override val name = "Dandami Maria"
     override val native: List[String] = List.empty[String]
@@ -9427,12 +8929,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object DAS_DAHO_DOO extends LanguageCode(value = "das") {
     override val name = "Daho-Doo"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object DAT_DARANG_DENG extends LanguageCode(value = "dat") {
-    override val name = "Darang Deng"
-    override val native: List[String] = List("Darang Deng")
     override val iso639_1: Option[String] = None
   }
 
@@ -9706,12 +9202,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object DEK_DEK extends LanguageCode(value = "dek") {
-    override val name = "Dek"
-    override val native: List[String] = List("Dek")
-    override val iso639_1: Option[String] = None
-  }
-
   case object DEL_DELAWARE extends LanguageCode(value = "del") {
     override val name = "Delaware"
     override val native: List[String] = List("Lënape")
@@ -9862,12 +9352,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object DGU_DEGARU extends LanguageCode(value = "dgu") {
-    override val name = "Degaru"
-    override val native: List[String] = List("Degaru")
-    override val iso639_1: Option[String] = None
-  }
-
   case object DGW_DAUNGWURRUNG extends LanguageCode(value = "dgw") {
     override val name = "Daungwurrung"
     override val native: List[String] = List.empty[String]
@@ -9883,12 +9367,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object DGZ_DAGA extends LanguageCode(value = "dgz") {
     override val name = "Daga"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object DHA_DHANWAR_SPURIOUS extends LanguageCode(value = "dha") {
-    override val name = "Dhanwar (spurious)"
-    override val native: List[String] = List("Dhanwar (spurious)")
     override val iso639_1: Option[String] = None
   }
 
@@ -10078,12 +9556,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object DIT_DIRARI extends LanguageCode(value = "dit") {
-    override val name = "Dirari"
-    override val native: List[String] = List("Dirari")
-    override val iso639_1: Option[String] = None
-  }
-
   case object DIU_DIRIKU extends LanguageCode(value = "diu") {
     override val name = "Diriku"
     override val native: List[String] = List.empty[String]
@@ -10174,12 +9646,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object DJL_DJIWARLI extends LanguageCode(value = "djl") {
-    override val name = "Djiwarli"
-    override val native: List[String] = List("Djiwarli")
-    override val iso639_1: Option[String] = None
-  }
-
   case object DJM_JAMSAY_DOGON extends LanguageCode(value = "djm") {
     override val name = "Jamsay Dogon"
     override val native: List[String] = List.empty[String]
@@ -10231,12 +9697,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object DKK_DAKKA extends LanguageCode(value = "dkk") {
     override val name = "Dakka"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object DKL_DOGON_KOLUM_SO extends LanguageCode(value = "dkl") {
-    override val name = "Dogon, Kolum So"
-    override val native: List[String] = List("Dogon, Kolum So")
     override val iso639_1: Option[String] = None
   }
 
@@ -10642,12 +10102,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object DRH_DARKHAT extends LanguageCode(value = "drh") {
-    override val name = "Darkhat"
-    override val native: List[String] = List("Darkhat")
-    override val iso639_1: Option[String] = None
-  }
-
   case object DRI_CLELA extends LanguageCode(value = "dri") {
     override val name = "C'Lela"
     override val native: List[String] = List.empty[String]
@@ -10678,12 +10132,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object DRR_DORORO extends LanguageCode(value = "drr") {
-    override val name = "Dororo"
-    override val native: List[String] = List("Dororo")
-    override val iso639_1: Option[String] = None
-  }
-
   case object DRS_GEDEO extends LanguageCode(value = "drs") {
     override val name = "Gedeo"
     override val native: List[String] = List.empty[String]
@@ -10699,12 +10147,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object DRU_RUKAI extends LanguageCode(value = "dru") {
     override val name = "Rukai"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object DRW_DARWAZI extends LanguageCode(value = "drw") {
-    override val name = "Darwazi"
-    override val native: List[String] = List("Darwazi")
     override val iso639_1: Option[String] = None
   }
 
@@ -10882,12 +10324,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object DUD_HUN_SAARE extends LanguageCode(value = "dud") {
-    override val name = "Hun-Saare"
-    override val native: List[String] = List("Hun-Saare")
-    override val iso639_1: Option[String] = None
-  }
-
   case object DUE_UMIRAY_DUMAGET_AGTA extends LanguageCode(value = "due") {
     override val name = "Umiray Dumaget Agta"
     override val native: List[String] = List.empty[String]
@@ -10915,12 +10351,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object DUI_DUMUN extends LanguageCode(value = "dui") {
     override val name = "Dumun"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object DUJ_DHUWAL extends LanguageCode(value = "duj") {
-    override val name = "Dhuwal"
-    override val native: List[String] = List("Dhuwal")
     override val iso639_1: Option[String] = None
   }
 
@@ -11032,12 +10462,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object DWL_DOGON_WALO_KUMBE extends LanguageCode(value = "dwl") {
-    override val name = "Dogon, Walo Kumbe"
-    override val native: List[String] = List("Dogon, Walo Kumbe")
-    override val iso639_1: Option[String] = None
-  }
-
   case object DWR_DAWRO extends LanguageCode(value = "dwr") {
     override val name = "Dawro"
     override val native: List[String] = List.empty[String]
@@ -11101,12 +10525,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object DYI_DJIMINI_SENOUFO extends LanguageCode(value = "dyi") {
     override val name = "Djimini Senoufo"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object DYK_LAND_DAYAK extends LanguageCode(value = "dyk") {
-    override val name = "Land Dayak"
-    override val native: List[String] = List("Land Dayak")
     override val iso639_1: Option[String] = None
   }
 
@@ -11344,12 +10762,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object EKC_EASTERN_KARNIC extends LanguageCode(value = "ekc") {
-    override val name = "Eastern Karnic"
-    override val native: List[String] = List("Eastern Karnic")
-    override val iso639_1: Option[String] = None
-  }
-
   case object EKE_EKIT extends LanguageCode(value = "eke") {
     override val name = "Ekit"
     override val native: List[String] = List.empty[String]
@@ -11452,12 +10864,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object ELP_ELPAPUTIH extends LanguageCode(value = "elp") {
-    override val name = "Elpaputih"
-    override val native: List[String] = List("Elpaputih")
-    override val iso639_1: Option[String] = None
-  }
-
   case object ELU_ELU extends LanguageCode(value = "elu") {
     override val name = "Elu"
     override val native: List[String] = List.empty[String]
@@ -11506,12 +10912,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object EML_EMILIANO_ROMAGNOLO extends LanguageCode(value = "eml") {
-    override val name = "Emiliano-Romagnolo"
-    override val native: List[String] = List("emigliàn e rumagnòl")
-    override val iso639_1: Option[String] = None
-  }
-
   case object EMM_MAMULIQUE extends LanguageCode(value = "emm") {
     override val name = "Mamulique"
     override val native: List[String] = List.empty[String]
@@ -11521,12 +10921,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object EMN_EMAN extends LanguageCode(value = "emn") {
     override val name = "Eman"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object EMO_EMOK extends LanguageCode(value = "emo") {
-    override val name = "Emok"
-    override val native: List[String] = List("Emok")
     override val iso639_1: Option[String] = None
   }
 
@@ -11617,12 +11011,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object ENH_TUNDRA_ENETS extends LanguageCode(value = "enh") {
     override val name = "Tundra Enets"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object ENI_ENIM extends LanguageCode(value = "eni") {
-    override val name = "Enim"
-    override val native: List[String] = List("Enim")
     override val iso639_1: Option[String] = None
   }
 
@@ -11920,12 +11308,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object EUR_EUROPANTO extends LanguageCode(value = "eur") {
-    override val name = "Europanto"
-    override val native: List[String] = List("Europanto")
-    override val iso639_1: Option[String] = None
-  }
-
   case object EUS_BASQUE extends LanguageCode(value = "eus") {
     override val name = "Basque"
     override val native: List[String] = List("euskara")
@@ -12214,12 +11596,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object FIZ_IZERE extends LanguageCode(value = "fiz") {
-    override val name = "Izere"
-    override val native: List[String] = List("Izere")
-    override val iso639_1: Option[String] = None
-  }
-
   case object FKK_KIRYA_KONZL extends LanguageCode(value = "fkk") {
     override val name = "Kirya-Konzəl"
     override val native: List[String] = List.empty[String]
@@ -12253,12 +11629,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object FLL_NORTH_FALI extends LanguageCode(value = "fll") {
     override val name = "North Fali"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object FLM_FALAM_CHIN extends LanguageCode(value = "flm") {
-    override val name = "Falam Chin"
-    override val native: List[String] = List("Falam Chin")
     override val iso639_1: Option[String] = None
   }
 
@@ -12373,12 +11743,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object FRD_FORDATA extends LanguageCode(value = "frd") {
     override val name = "Fordata"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object FRI_WESTERN_FRISIAN extends LanguageCode(value = "fri") {
-    override val name = "Western Frisian"
-    override val native: List[String] = List("Western Frisian")
     override val iso639_1: Option[String] = None
   }
 
@@ -12700,12 +12064,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object GAV_GABUTAMON extends LanguageCode(value = "gav") {
-    override val name = "Gabutamon"
-    override val native: List[String] = List("Gabutamon")
-    override val iso639_1: Option[String] = None
-  }
-
   case object GAW_NOBONOB extends LanguageCode(value = "gaw") {
     override val name = "Nobonob"
     override val native: List[String] = List.empty[String]
@@ -12739,12 +12097,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object GBB_KAYTETYE extends LanguageCode(value = "gbb") {
     override val name = "Kaytetye"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object GBC_GARAWA extends LanguageCode(value = "gbc") {
-    override val name = "Garawa"
-    override val native: List[String] = List("Garawa")
     override val iso639_1: Option[String] = None
   }
 
@@ -13120,12 +12472,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object GEN_GEMAN_DENG extends LanguageCode(value = "gen") {
-    override val name = "Geman Deng"
-    override val native: List[String] = List("Geman Deng")
-    override val iso639_1: Option[String] = None
-  }
-
   case object GEQ_GEME extends LanguageCode(value = "geq") {
     override val name = "Geme"
     override val native: List[String] = List.empty[String]
@@ -13180,12 +12526,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object GFX_MANGETTI_DUNE__XUNG extends LanguageCode(value = "gfx") {
-    override val name = "Mangetti Dune !Xung"
-    override val native: List[String] = List("Mangetti Dune !Xung")
-    override val iso639_1: Option[String] = None
-  }
-
   case object GGA_GAO extends LanguageCode(value = "gga") {
     override val name = "Gao"
     override val native: List[String] = List.empty[String]
@@ -13216,12 +12556,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object GGH_GARREH_AJURAN extends LanguageCode(value = "ggh") {
-    override val name = "Garreh-Ajuran"
-    override val native: List[String] = List("Garreh-Ajuran")
-    override val iso639_1: Option[String] = None
-  }
-
   case object GGK_KUNGARAKANY extends LanguageCode(value = "ggk") {
     override val name = "Kungarakany"
     override val native: List[String] = List.empty[String]
@@ -13231,30 +12565,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object GGL_GANGLAU extends LanguageCode(value = "ggl") {
     override val name = "Ganglau"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object GGM_GUGU_MINI extends LanguageCode(value = "ggm") {
-    override val name = "Gugu Mini"
-    override val native: List[String] = List("Gugu Mini")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object GGN_GURUNG_EASTERN extends LanguageCode(value = "ggn") {
-    override val name = "Gurung, Eastern"
-    override val native: List[String] = List("Gurung, Eastern")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object GGO_GONDI_SOUTHERN extends LanguageCode(value = "ggo") {
-    override val name = "Gondi, Southern"
-    override val native: List[String] = List("Gondi, Southern")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object GGR_AGHU_THARNGGALU extends LanguageCode(value = "ggr") {
-    override val name = "Aghu Tharnggalu"
-    override val native: List[String] = List("Aghu Tharnggalu")
     override val iso639_1: Option[String] = None
   }
 
@@ -13408,12 +12718,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object GIO_GELAO extends LanguageCode(value = "gio") {
-    override val name = "Gelao"
-    override val native: List[String] = List("Gelao")
-    override val iso639_1: Option[String] = None
-  }
-
   case object GIP_GIMI_WEST_NEW_BRITAIN extends LanguageCode(value = "gip") {
     override val name = "Gimi (West New Britain)"
     override val native: List[String] = List.empty[String]
@@ -13471,12 +12775,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object GIZ_SOUTH_GIZIGA extends LanguageCode(value = "giz") {
     override val name = "South Giziga"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object GJI_GEJI extends LanguageCode(value = "gji") {
-    override val name = "Geji"
-    override val native: List[String] = List("Geji")
     override val iso639_1: Option[String] = None
   }
 
@@ -13594,12 +12892,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object GLI_GULIGULI extends LanguageCode(value = "gli") {
-    override val name = "Guliguli"
-    override val native: List[String] = List("Guliguli")
-    override val iso639_1: Option[String] = None
-  }
-
   case object GLJ_GULA_IRO extends LanguageCode(value = "glj") {
     override val name = "Gula Iro"
     override val native: List[String] = List.empty[String]
@@ -13699,12 +12991,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object GMN_GIMNIME extends LanguageCode(value = "gmn") {
     override val name = "Gimnime"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object GMO_GAMO_GOFA_DAWRO extends LanguageCode(value = "gmo") {
-    override val name = "Gamo-Gofa-Dawro"
-    override val native: List[String] = List("Gamo-Gofa-Dawro")
     override val iso639_1: Option[String] = None
   }
 
@@ -14194,12 +13480,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object GSC_GASCON extends LanguageCode(value = "gsc") {
-    override val name = "Gascon"
-    override val native: List[String] = List("Gascon")
-    override val iso639_1: Option[String] = None
-  }
-
   case object GSE_GHANAIAN_SIGN_LANGUAGE extends LanguageCode(value = "gse") {
     override val name = "Ghanaian Sign Language"
     override val native: List[String] = List.empty[String]
@@ -14257,12 +13537,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object GTA_GUATO extends LanguageCode(value = "gta") {
     override val name = "Guató"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object GTI_GBATI_RI extends LanguageCode(value = "gti") {
-    override val name = "Gbati-ri"
-    override val native: List[String] = List("Gbati-ri")
     override val iso639_1: Option[String] = None
   }
 
@@ -14395,12 +13669,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object GUU_YANOMAMO extends LanguageCode(value = "guu") {
     override val name = "Yanomamö"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object GUV_GEY extends LanguageCode(value = "guv") {
-    override val name = "Gey"
-    override val native: List[String] = List("Gey")
     override val iso639_1: Option[String] = None
   }
 
@@ -15568,12 +14836,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object HRR_HORURU extends LanguageCode(value = "hrr") {
-    override val name = "Horuru"
-    override val native: List[String] = List("Horuru")
-    override val iso639_1: Option[String] = None
-  }
-
   case object HRT_HERTEVIN extends LanguageCode(value = "hrt") {
     override val name = "Hértevin"
     override val native: List[String] = List.empty[String]
@@ -15613,12 +14875,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object HSB_UPPER_SORBIAN extends LanguageCode(value = "hsb") {
     override val name = "Upper Sorbian"
     override val native: List[String] = List("hornjoserbsce")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object HSF_HUASTEC_SOUTHEASTERN extends LanguageCode(value = "hsf") {
-    override val name = "Huastec, Southeastern"
-    override val native: List[String] = List("Huastec, Southeastern")
     override val iso639_1: Option[String] = None
   }
 
@@ -15826,12 +15082,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object HVA_HUASTEC_SAN_LUIS_POTOSI extends LanguageCode(value = "hva") {
-    override val name = "Huastec, San Luís Potosí"
-    override val native: List[String] = List("Huastec, San Luís Potosí")
-    override val iso639_1: Option[String] = None
-  }
-
   case object HVC_HAITIAN_VODOUN_CULTURE_LANGUAGE extends LanguageCode(value = "hvc") {
     override val name = "Haitian Vodoun Culture Language"
     override val native: List[String] = List.empty[String]
@@ -15910,12 +15160,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object IAP_IAPAMA extends LanguageCode(value = "iap") {
-    override val name = "Iapama"
-    override val native: List[String] = List("Iapama")
-    override val iso639_1: Option[String] = None
-  }
-
   case object IAR_PURARI extends LanguageCode(value = "iar") {
     override val name = "Purari"
     override val native: List[String] = List.empty[String]
@@ -15955,12 +15199,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object IBH_BIH extends LanguageCode(value = "ibh") {
     override val name = "Bih"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object IBI_IBILO extends LanguageCode(value = "ibi") {
-    override val name = "Ibilo"
-    override val native: List[String] = List("Ibilo")
     override val iso639_1: Option[String] = None
   }
 
@@ -16390,12 +15628,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object ILL_IRANUN extends LanguageCode(value = "ill") {
-    override val name = "Iranun"
-    override val native: List[String] = List("Iranun")
-    override val iso639_1: Option[String] = None
-  }
-
   case object ILM_IRANUN_MALAYSIA extends LanguageCode(value = "ilm") {
     override val name = "Iranun (Malaysia)"
     override val native: List[String] = List.empty[String]
@@ -16432,21 +15664,9 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object ILW_TALUR extends LanguageCode(value = "ilw") {
-    override val name = "Talur"
-    override val native: List[String] = List("Talur")
-    override val iso639_1: Option[String] = None
-  }
-
   case object IMA_MALA_MALASAR extends LanguageCode(value = "ima") {
     override val name = "Mala Malasar"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object IME_IMERAGUEN extends LanguageCode(value = "ime") {
-    override val name = "Imeraguen"
-    override val native: List[String] = List("Imeraguen")
     override val iso639_1: Option[String] = None
   }
 
@@ -16852,12 +16072,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object ITU_ITUTANG extends LanguageCode(value = "itu") {
-    override val name = "Itutang"
-    override val native: List[String] = List("Itutang")
-    override val iso639_1: Option[String] = None
-  }
-
   case object ITV_ITAWIT extends LanguageCode(value = "itv") {
     override val name = "Itawit"
     override val native: List[String] = List.empty[String]
@@ -16936,18 +16150,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object IXI_IXIL_NEBAJ extends LanguageCode(value = "ixi") {
-    override val name = "Ixil, Nebaj"
-    override val native: List[String] = List("Ixil, Nebaj")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object IXJ_IXIL_CHAJUL extends LanguageCode(value = "ixj") {
-    override val name = "Ixil, Chajul"
-    override val native: List[String] = List("Ixil, Chajul")
-    override val iso639_1: Option[String] = None
-  }
-
   case object IXL_IXIL extends LanguageCode(value = "ixl") {
     override val name = "Ixil"
     override val native: List[String] = List.empty[String]
@@ -16975,12 +16177,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object IZH_INGRIAN extends LanguageCode(value = "izh") {
     override val name = "Ingrian"
     override val native: List[String] = List("ižoran keeli")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object IZI_IZI_EZAA_IKWO_MGBO extends LanguageCode(value = "izi") {
-    override val name = "Izi-Ezaa-Ikwo-Mgbo"
-    override val native: List[String] = List("Izi-Ezaa-Ikwo-Mgbo")
     override val iso639_1: Option[String] = None
   }
 
@@ -17044,12 +16240,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object JAI_JACALTECO_WESTERN extends LanguageCode(value = "jai") {
-    override val name = "Jacalteco, Western"
-    override val native: List[String] = List("Jacalteco, Western")
-    override val iso639_1: Option[String] = None
-  }
-
   case object JAJ_ZAZAO extends LanguageCode(value = "jaj") {
     override val name = "Zazao"
     override val native: List[String] = List.empty[String]
@@ -17086,21 +16276,9 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object JAP_JARUARA extends LanguageCode(value = "jap") {
-    override val name = "Jaruára"
-    override val native: List[String] = List("Jaruára")
-    override val iso639_1: Option[String] = None
-  }
-
   case object JAQ_YAQAY extends LanguageCode(value = "jaq") {
     override val name = "Yaqay"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object JAR_JARAWA_NIGERIA extends LanguageCode(value = "jar") {
-    override val name = "Jarawa (Nigeria)"
-    override val native: List[String] = List("Jarawa (Nigeria)")
     override val iso639_1: Option[String] = None
   }
 
@@ -17251,12 +16429,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object JEE_JERUNG extends LanguageCode(value = "jee") {
     override val name = "Jerung"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object JEG_JENG extends LanguageCode(value = "jeg") {
-    override val name = "Jeng"
-    override val native: List[String] = List("Jeng")
     override val iso639_1: Option[String] = None
   }
 
@@ -18034,12 +17206,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object KBF_KAKAUHUA extends LanguageCode(value = "kbf") {
-    override val name = "Kakauhua"
-    override val native: List[String] = List("Kakauhua")
-    override val iso639_1: Option[String] = None
-  }
-
   case object KBG_KHAMBA extends LanguageCode(value = "kbg") {
     override val name = "Khamba"
     override val native: List[String] = List.empty[String]
@@ -18412,12 +17578,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object KDS_LAHU_SHI extends LanguageCode(value = "kds") {
-    override val name = "Lahu Shi"
-    override val native: List[String] = List("Lahu Shi")
-    override val iso639_1: Option[String] = None
-  }
-
   case object KDT_KUY extends LanguageCode(value = "kdt") {
     override val name = "Kuy"
     override val native: List[String] = List.empty[String]
@@ -18427,12 +17587,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object KDU_KADARU extends LanguageCode(value = "kdu") {
     override val name = "Kadaru"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object KDV_KADO extends LanguageCode(value = "kdv") {
-    override val name = "Kado"
-    override val native: List[String] = List("Kado")
     override val iso639_1: Option[String] = None
   }
 
@@ -18784,18 +17938,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object KGC_KASSENG extends LanguageCode(value = "kgc") {
-    override val name = "Kasseng"
-    override val native: List[String] = List("Kasseng")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object KGD_KATAANG extends LanguageCode(value = "kgd") {
-    override val name = "Kataang"
-    override val native: List[String] = List("Kataang")
-    override val iso639_1: Option[String] = None
-  }
-
   case object KGE_KOMERING extends LanguageCode(value = "kge") {
     override val name = "Komering"
     override val native: List[String] = List.empty[String]
@@ -18811,12 +17953,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object KGG_KUSUNDA extends LanguageCode(value = "kgg") {
     override val name = "Kusunda"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object KGH_KALINGA_UPPER_TANUDAN extends LanguageCode(value = "kgh") {
-    override val name = "Kalinga, Upper Tanudan"
-    override val native: List[String] = List("Kalinga, Upper Tanudan")
     override val iso639_1: Option[String] = None
   }
 
@@ -18841,12 +17977,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object KGL_KUNGGARI extends LanguageCode(value = "kgl") {
     override val name = "Kunggari"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object KGM_KARIPUNA extends LanguageCode(value = "kgm") {
-    override val name = "Karipúna"
-    override val native: List[String] = List("Karipúna")
     override val iso639_1: Option[String] = None
   }
 
@@ -19255,12 +18385,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object KJE_KISAR extends LanguageCode(value = "kje") {
     override val name = "Kisar"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object KJF_KHALAJ extends LanguageCode(value = "kjf") {
-    override val name = "Khalaj"
-    override val native: List[String] = List("Khalaj")
     override val iso639_1: Option[String] = None
   }
 
@@ -19888,12 +19012,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object KNH_KAYAN_RIVER_KENYAH extends LanguageCode(value = "knh") {
-    override val name = "Kayan River Kenyah"
-    override val native: List[String] = List("Kayan River Kenyah")
-    override val iso639_1: Option[String] = None
-  }
-
   case object KNI_KANUFI extends LanguageCode(value = "kni") {
     override val name = "Kanufi"
     override val native: List[String] = List.empty[String]
@@ -20008,12 +19126,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object KOB_KOHOROXITARI extends LanguageCode(value = "kob") {
-    override val name = "Kohoroxitari"
-    override val native: List[String] = List("Kohoroxitari")
-    override val iso639_1: Option[String] = None
-  }
-
   case object KOC_KPATI extends LanguageCode(value = "koc") {
     override val name = "Kpati"
     override val native: List[String] = List.empty[String]
@@ -20053,12 +19165,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object KOI_KOMI_PERMYAK extends LanguageCode(value = "koi") {
     override val name = "Komi-Permyak"
     override val native: List[String] = List("перым-коми")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object KOJ_SARA_DUNJO extends LanguageCode(value = "koj") {
-    override val name = "Sara Dunjo"
-    override val native: List[String] = List("Sara Dunjo")
     override val iso639_1: Option[String] = None
   }
 
@@ -20137,12 +19243,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object KOW_KUGAMA extends LanguageCode(value = "kow") {
     override val name = "Kugama"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object KOX_COXIMA extends LanguageCode(value = "kox") {
-    override val name = "Coxima"
-    override val native: List[String] = List("Coxima")
     override val iso639_1: Option[String] = None
   }
 
@@ -20245,12 +19345,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object KPO_IKPOSO extends LanguageCode(value = "kpo") {
     override val name = "Ikposo"
     override val native: List[String] = List("Akpɔssɔ")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object KPP_KAREN_PAKU extends LanguageCode(value = "kpp") {
-    override val name = "Karen, Paku"
-    override val native: List[String] = List("Karen, Paku")
     override val iso639_1: Option[String] = None
   }
 
@@ -20506,12 +19600,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object KRG_NORTH_KOROWAI extends LanguageCode(value = "krg") {
-    override val name = "North Korowai"
-    override val native: List[String] = List("North Korowai")
-    override val iso639_1: Option[String] = None
-  }
-
   case object KRH_KURAMA extends LanguageCode(value = "krh") {
     override val name = "Kurama"
     override val native: List[String] = List.empty[String]
@@ -20542,12 +19630,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object KRM_KRIM extends LanguageCode(value = "krm") {
-    override val name = "Krim"
-    override val native: List[String] = List("Krim")
-    override val iso639_1: Option[String] = None
-  }
-
   case object KRN_SAPO extends LanguageCode(value = "krn") {
     override val name = "Sapo"
     override val native: List[String] = List.empty[String]
@@ -20557,12 +19639,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object KRP_DUROP extends LanguageCode(value = "krp") {
     override val name = "Durop"
     override val native: List[String] = List("Durop")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object KRQ_KRUI extends LanguageCode(value = "krq") {
-    override val name = "Krui"
-    override val native: List[String] = List("Krui")
     override val iso639_1: Option[String] = None
   }
 
@@ -20617,12 +19693,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object KRZ_SOTA_KANUM extends LanguageCode(value = "krz") {
     override val name = "Sota Kanum"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object KSA_SHUWA_ZAMANI extends LanguageCode(value = "ksa") {
-    override val name = "Shuwa-Zamani"
-    override val native: List[String] = List("Shuwa-Zamani")
     override val iso639_1: Option[String] = None
   }
 
@@ -20875,12 +19945,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object KTQ_KATABAGA extends LanguageCode(value = "ktq") {
     override val name = "Katabaga"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object KTR_KOTA_MARUDU_TINAGAS extends LanguageCode(value = "ktr") {
-    override val name = "Kota Marudu Tinagas"
-    override val native: List[String] = List("Kota Marudu Tinagas")
     override val iso639_1: Option[String] = None
   }
 
@@ -21196,12 +20260,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object KVS_KUNGGARA extends LanguageCode(value = "kvs") {
-    override val name = "Kunggara"
-    override val native: List[String] = List("Kunggara")
-    override val iso639_1: Option[String] = None
-  }
-
   case object KVT_LAHTA_KAREN extends LanguageCode(value = "kvt") {
     override val name = "Lahta Karen"
     override val native: List[String] = List.empty[String]
@@ -21340,12 +20398,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object KWQ_KWAK extends LanguageCode(value = "kwq") {
-    override val name = "Kwak"
-    override val native: List[String] = List("Kwak")
-    override val iso639_1: Option[String] = None
-  }
-
   case object KWR_KWER extends LanguageCode(value = "kwr") {
     override val name = "Kwer"
     override val native: List[String] = List.empty[String]
@@ -21424,21 +20476,9 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object KXE_KAKIHUM extends LanguageCode(value = "kxe") {
-    override val name = "Kakihum"
-    override val native: List[String] = List("Kakihum")
-    override val iso639_1: Option[String] = None
-  }
-
   case object KXF_MANUMANAW_KAREN extends LanguageCode(value = "kxf") {
     override val name = "Manumanaw Karen"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object KXG_KATINGAN extends LanguageCode(value = "kxg") {
-    override val name = "Katingan"
-    override val native: List[String] = List("Katingan")
     override val iso639_1: Option[String] = None
   }
 
@@ -21463,12 +20503,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object KXK_ZAYEIN_KAREN extends LanguageCode(value = "kxk") {
     override val name = "Zayein Karen"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object KXL_KURUX_NEPALI extends LanguageCode(value = "kxl") {
-    override val name = "Kurux, Nepali"
-    override val native: List[String] = List("Kurux, Nepali")
     override val iso639_1: Option[String] = None
   }
 
@@ -21517,12 +20551,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object KXT_KOIWAT extends LanguageCode(value = "kxt") {
     override val name = "Koiwat"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object KXU_KUI_INDIA extends LanguageCode(value = "kxu") {
-    override val name = "Kui (India)"
-    override val native: List[String] = List("Kui (India)")
     override val iso639_1: Option[String] = None
   }
 
@@ -21754,21 +20782,9 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object KZH_KENUZI_DONGOLA extends LanguageCode(value = "kzh") {
-    override val name = "Kenuzi-Dongola"
-    override val native: List[String] = List("Kenuzi-Dongola")
-    override val iso639_1: Option[String] = None
-  }
-
   case object KZI_KELABIT extends LanguageCode(value = "kzi") {
     override val name = "Kelabit"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object KZJ_KADAZAN_COASTAL extends LanguageCode(value = "kzj") {
-    override val name = "Kadazan, Coastal"
-    override val native: List[String] = List("Kadazan, Coastal")
     override val iso639_1: Option[String] = None
   }
 
@@ -21823,12 +20839,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object KZS_SUGUT_DUSUN extends LanguageCode(value = "kzs") {
     override val name = "Sugut Dusun"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object KZT_DUSUN_TAMBUNAN extends LanguageCode(value = "kzt") {
-    override val name = "Dusun, Tambunan"
-    override val native: List[String] = List("Dusun, Tambunan")
     override val iso639_1: Option[String] = None
   }
 
@@ -21928,12 +20938,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object LAK_LAKA_NIGERIA extends LanguageCode(value = "lak") {
-    override val name = "Laka (Nigeria)"
-    override val native: List[String] = List("Laka (Nigeria)")
-    override val iso639_1: Option[String] = None
-  }
-
   case object LAL_LALIA extends LanguageCode(value = "lal") {
     override val name = "Lalia"
     override val native: List[String] = List.empty[String]
@@ -22021,12 +21025,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object LAZ_ARIBWATSA extends LanguageCode(value = "laz") {
     override val name = "Aribwatsa"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object LBA_LUI extends LanguageCode(value = "lba") {
-    override val name = "Lui"
-    override val native: List[String] = List("Lui")
     override val iso639_1: Option[String] = None
   }
 
@@ -22339,12 +21337,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object LEF_LELEMI extends LanguageCode(value = "lef") {
     override val name = "Lelemi"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object LEG_LENGUA extends LanguageCode(value = "leg") {
-    override val name = "Lengua"
-    override val native: List[String] = List("Lengua")
     override val iso639_1: Option[String] = None
   }
 
@@ -22678,12 +21670,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object LII_LINGKHIM extends LanguageCode(value = "lii") {
-    override val name = "Lingkhim"
-    override val native: List[String] = List("Lingkhim")
-    override val iso639_1: Option[String] = None
-  }
-
   case object LIJ_LIGURIAN extends LanguageCode(value = "lij") {
     override val name = "Ligurian"
     override val native: List[String] = List("líguru")
@@ -23014,12 +22000,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object LLO_KHLOR extends LanguageCode(value = "llo") {
-    override val name = "Khlor"
-    override val native: List[String] = List("Khlor")
-    override val iso639_1: Option[String] = None
-  }
-
   case object LLP_NORTH_EFATE extends LanguageCode(value = "llp") {
     override val name = "North Efate"
     override val native: List[String] = List.empty[String]
@@ -23122,12 +22102,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object LMM_LAMAM extends LanguageCode(value = "lmm") {
-    override val name = "Lamam"
-    override val native: List[String] = List("Lamam")
-    override val iso639_1: Option[String] = None
-  }
-
   case object LMN_LAMBADI extends LanguageCode(value = "lmn") {
     override val name = "Lambadi"
     override val native: List[String] = List.empty[String]
@@ -23155,18 +22129,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object LMR_LAMALERA extends LanguageCode(value = "lmr") {
     override val name = "Lamalera"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object LMS_LIMOUSIN extends LanguageCode(value = "lms") {
-    override val name = "Limousin"
-    override val native: List[String] = List("Limousin")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object LMT_LEMATANG extends LanguageCode(value = "lmt") {
-    override val name = "Lematang"
-    override val native: List[String] = List("Lematang")
     override val iso639_1: Option[String] = None
   }
 
@@ -23200,12 +22162,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object LMZ_LUMBEE extends LanguageCode(value = "lmz") {
-    override val name = "Lumbee"
-    override val native: List[String] = List("Lumbee")
-    override val iso639_1: Option[String] = None
-  }
-
   case object LNA_LANGBASHE extends LanguageCode(value = "lna") {
     override val name = "Langbashe"
     override val native: List[String] = List.empty[String]
@@ -23215,12 +22171,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object LNB_MBALANHU extends LanguageCode(value = "lnb") {
     override val name = "Mbalanhu"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object LNC_LANGUEDOCIEN extends LanguageCode(value = "lnc") {
-    override val name = "Languedocien"
-    override val native: List[String] = List("Languedocien")
     override val iso639_1: Option[String] = None
   }
 
@@ -23272,21 +22222,9 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object LNO_LANGO_SUDAN extends LanguageCode(value = "lno") {
-    override val name = "Lango (Sudan)"
-    override val native: List[String] = List("Lango (Sudan)")
-    override val iso639_1: Option[String] = None
-  }
-
   case object LNS_LAMNSO extends LanguageCode(value = "lns") {
     override val name = "Lamnso'"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object LNT_LINTANG extends LanguageCode(value = "lnt") {
-    override val name = "Lintang"
-    override val native: List[String] = List("Lintang")
     override val iso639_1: Option[String] = None
   }
 
@@ -23323,12 +22261,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object LOC_INONHAN extends LanguageCode(value = "loc") {
     override val name = "Inonhan"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object LOD_BERAWAN extends LanguageCode(value = "lod") {
-    override val name = "Berawan"
-    override val native: List[String] = List("Berawan")
     override val iso639_1: Option[String] = None
   }
 
@@ -23611,12 +22543,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object LSE_LUSENGO extends LanguageCode(value = "lse") {
     override val name = "Lusengo"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object LSG_LYONS_SIGN_LANGUAGE extends LanguageCode(value = "lsg") {
-    override val name = "Lyons Sign Language"
-    override val native: List[String] = List("Lyons Sign Language")
     override val iso639_1: Option[String] = None
   }
 
@@ -24220,12 +23146,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object MBG_NORTHERN_NAMBIKUARA extends LanguageCode(value = "mbg") {
-    override val name = "Northern Nambikuára"
-    override val native: List[String] = List("Northern Nambikuára")
-    override val iso639_1: Option[String] = None
-  }
-
   case object MBH_MANGSENG extends LanguageCode(value = "mbh") {
     override val name = "Mangseng"
     override val native: List[String] = List.empty[String]
@@ -24580,12 +23500,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object MDO_SOUTHWEST_GBAYA extends LanguageCode(value = "mdo") {
-    override val name = "Southwest Gbaya"
-    override val native: List[String] = List("Southwest Gbaya")
-    override val iso639_1: Option[String] = None
-  }
-
   case object MDP_MBALA extends LanguageCode(value = "mdp") {
     override val name = "Mbala"
     override val native: List[String] = List.empty[String]
@@ -24685,12 +23599,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object MEF_MEGAM extends LanguageCode(value = "mef") {
     override val name = "Megam"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object MEG_MEA extends LanguageCode(value = "meg") {
-    override val name = "Mea"
-    override val native: List[String] = List("Mea")
     override val iso639_1: Option[String] = None
   }
 
@@ -25096,12 +24004,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object MGX_OMATI extends LanguageCode(value = "mgx") {
-    override val name = "Omati"
-    override val native: List[String] = List("Omati")
-    override val iso639_1: Option[String] = None
-  }
-
   case object MGY_MBUNGA extends LanguageCode(value = "mgy") {
     override val name = "Mbunga"
     override val native: List[String] = List.empty[String]
@@ -25153,12 +24055,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object MHG_MARGU extends LanguageCode(value = "mhg") {
     override val name = "Margu"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object MHH_MASKOY_PIDGIN extends LanguageCode(value = "mhh") {
-    override val name = "Maskoy Pidgin"
-    override val native: List[String] = List("Maskoy Pidgin")
     override val iso639_1: Option[String] = None
   }
 
@@ -25237,12 +24133,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object MHU_DIGARO_MISHMI extends LanguageCode(value = "mhu") {
     override val name = "Digaro-Mishmi"
     override val native: List[String] = List("tɑ31 rɑŋ53")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object MHV_ARAKANESE extends LanguageCode(value = "mhv") {
-    override val name = "Arakanese"
-    override val native: List[String] = List("Arakanese")
     override val iso639_1: Option[String] = None
   }
 
@@ -25390,12 +24280,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object MIV_MIMI extends LanguageCode(value = "miv") {
-    override val name = "Mimi"
-    override val native: List[String] = List("Mimi")
-    override val iso639_1: Option[String] = None
-  }
-
   case object MIW_AKOYE extends LanguageCode(value = "miw") {
     override val name = "Akoye"
     override val native: List[String] = List.empty[String]
@@ -25417,12 +24301,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object MIZ_COATZOSPAN_MIXTEC extends LanguageCode(value = "miz") {
     override val name = "Coatzospan Mixtec"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object MJA_MAHEI extends LanguageCode(value = "mja") {
-    override val name = "Mahei"
-    override val native: List[String] = List("Mahei")
     override val iso639_1: Option[String] = None
   }
 
@@ -25738,12 +24616,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object MLD_MALAKHEL extends LanguageCode(value = "mld") {
-    override val name = "Malakhel"
-    override val native: List[String] = List("Malakhel")
-    override val iso639_1: Option[String] = None
-  }
-
   case object MLE_MANAMBU extends LanguageCode(value = "mle") {
     override val name = "Manambu"
     override val native: List[String] = List.empty[String]
@@ -25864,12 +24736,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object MLY_MALAY_INDIVIDUAL_LANGUAGE extends LanguageCode(value = "mly") {
-    override val name = "Malay (individual language)"
-    override val native: List[String] = List("Malay (individual language)")
-    override val iso639_1: Option[String] = None
-  }
-
   case object MLZ_MALAYNON extends LanguageCode(value = "mlz") {
     override val name = "Malaynon"
     override val native: List[String] = List.empty[String]
@@ -25981,12 +24847,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object MMR_WESTERN_XIANGXI_MIAO extends LanguageCode(value = "mmr") {
     override val name = "Western Xiangxi Miao"
     override val native: List[String] = List("Dut Xonb")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object MMS_MAM_SOUTHERN extends LanguageCode(value = "mms") {
-    override val name = "Mam, Southern"
-    override val native: List[String] = List("Mam, Southern")
     override val iso639_1: Option[String] = None
   }
 
@@ -26140,12 +25000,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object MNT_MAYKULAN extends LanguageCode(value = "mnt") {
-    override val name = "Maykulan"
-    override val native: List[String] = List("Maykulan")
-    override val iso639_1: Option[String] = None
-  }
-
   case object MNU_MER extends LanguageCode(value = "mnu") {
     override val name = "Mer"
     override val native: List[String] = List.empty[String]
@@ -26188,12 +25042,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object MOB_MOINBA extends LanguageCode(value = "mob") {
-    override val name = "Moinba"
-    override val native: List[String] = List("Moinba")
-    override val iso639_1: Option[String] = None
-  }
-
   case object MOC_MOCOVI extends LanguageCode(value = "moc") {
     override val name = "Mocoví"
     override val native: List[String] = List.empty[String]
@@ -26209,12 +25057,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object MOE_INNU extends LanguageCode(value = "moe") {
     override val name = "Innu"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object MOF_MOHEGAN_MONTAUK_NARRAGANSETT extends LanguageCode(value = "mof") {
-    override val name = "Mohegan-Montauk-Narragansett"
-    override val native: List[String] = List("Mohegan-Montauk-Narragansett")
     override val iso639_1: Option[String] = None
   }
 
@@ -26246,12 +25088,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val name = "Morori"
     override val native: List[String] = List.empty[String]
     override val iso639_1: Option[String] = None
-  }
-
-  case object MOL_MOLDAVIAN extends LanguageCode(value = "mol") {
-    override val name = "Moldavian"
-    override val native: List[String] = List("Moldavian")
-    override val iso639_1: Option[String] = Some("(mo)")
   }
 
   case object MOM_MANGUE extends LanguageCode(value = "mom") {
@@ -26365,12 +25201,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object MPE_MAJANG extends LanguageCode(value = "mpe") {
     override val name = "Majang"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object MPF_MAM_TAJUMULCO extends LanguageCode(value = "mpf") {
-    override val name = "Mam, Tajumulco"
-    override val native: List[String] = List("Mam, Tajumulco")
     override val iso639_1: Option[String] = None
   }
 
@@ -26509,12 +25339,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object MQC_MANGOLE extends LanguageCode(value = "mqc") {
     override val name = "Mangole"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object MQD_MADANG extends LanguageCode(value = "mqd") {
-    override val name = "Madang"
-    override val native: List[String] = List("Madang")
     override val iso639_1: Option[String] = None
   }
 
@@ -26920,12 +25744,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object MST_MANDAYA_CATAELANO extends LanguageCode(value = "mst") {
-    override val name = "Mandaya, Cataelano"
-    override val native: List[String] = List("Mandaya, Cataelano")
-    override val iso639_1: Option[String] = None
-  }
-
   case object MSU_MUSOM extends LanguageCode(value = "msu") {
     override val name = "Musom"
     override val native: List[String] = List.empty[String]
@@ -27112,12 +25930,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object MTZ_TACANEC extends LanguageCode(value = "mtz") {
-    override val name = "Tacanec"
-    override val native: List[String] = List("Tacanec")
-    override val iso639_1: Option[String] = None
-  }
-
   case object MUA_MUNDANG extends LanguageCode(value = "mua") {
     override val name = "Mundang"
     override val native: List[String] = List.empty[String]
@@ -27238,12 +26050,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object MUW_MUNDARI extends LanguageCode(value = "muw") {
-    override val name = "Mundari"
-    override val native: List[String] = List("Mundari")
-    override val iso639_1: Option[String] = None
-  }
-
   case object MUX_BO_UNG extends LanguageCode(value = "mux") {
     override val name = "Bo-Ung"
     override val native: List[String] = List.empty[String]
@@ -27271,12 +26077,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object MVB_MATTOLE extends LanguageCode(value = "mvb") {
     override val name = "Mattole"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object MVC_MAM_CENTRAL extends LanguageCode(value = "mvc") {
-    override val name = "Mam, Central"
-    override val native: List[String] = List("Mam, Central")
     override val iso639_1: Option[String] = None
   }
 
@@ -27316,12 +26116,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object MVJ_MAM_TODOS_SANTOS_CUCHUMATAN extends LanguageCode(value = "mvj") {
-    override val name = "Mam, Todos Santos Cuchumatán"
-    override val native: List[String] = List("Mam, Todos Santos Cuchumatán")
-    override val iso639_1: Option[String] = None
-  }
-
   case object MVK_MEKMEK extends LanguageCode(value = "mvk") {
     override val name = "Mekmek"
     override val native: List[String] = List.empty[String]
@@ -27331,12 +26125,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object MVL_MBARA_AUSTRALIA extends LanguageCode(value = "mvl") {
     override val name = "Mbara (Australia)"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object MVM_MUYA extends LanguageCode(value = "mvm") {
-    override val name = "Muya"
-    override val native: List[String] = List("Muya")
     override val iso639_1: Option[String] = None
   }
 
@@ -27436,12 +26224,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object MWD_MUDBURA extends LanguageCode(value = "mwd") {
-    override val name = "Mudbura"
-    override val native: List[String] = List("Mudbura")
-    override val iso639_1: Option[String] = None
-  }
-
   case object MWE_MWERA_CHIMWERA extends LanguageCode(value = "mwe") {
     override val name = "Mwera (Chimwera)"
     override val native: List[String] = List.empty[String]
@@ -27469,12 +26251,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object MWI_LABO extends LanguageCode(value = "mwi") {
     override val name = "Labo"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object MWJ_MALIGO extends LanguageCode(value = "mwj") {
-    override val name = "Maligo"
-    override val native: List[String] = List("Maligo")
     override val iso639_1: Option[String] = None
   }
 
@@ -27553,18 +26329,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object MWW_HMONG_DAW extends LanguageCode(value = "mww") {
     override val name = "Hmong Daw"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object MWX_MEDIAK extends LanguageCode(value = "mwx") {
-    override val name = "Mediak"
-    override val native: List[String] = List("Mediak")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object MWY_MOSIRO extends LanguageCode(value = "mwy") {
-    override val name = "Mosiro"
-    override val native: List[String] = List("Mosiro")
     override val iso639_1: Option[String] = None
   }
 
@@ -27748,12 +26512,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object MYD_MARAMBA extends LanguageCode(value = "myd") {
-    override val name = "Maramba"
-    override val native: List[String] = List("Maramba")
-    override val iso639_1: Option[String] = None
-  }
-
   case object MYE_MYENE extends LanguageCode(value = "mye") {
     override val name = "Myene"
     override val native: List[String] = List.empty[String]
@@ -27775,12 +26533,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object MYH_MAKAH extends LanguageCode(value = "myh") {
     override val name = "Makah"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object MYI_MINA_INDIA extends LanguageCode(value = "myi") {
-    override val name = "Mina (India)"
-    override val native: List[String] = List("Mina (India)")
     override val iso639_1: Option[String] = None
   }
 
@@ -27820,12 +26572,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object MYQ_MANINKA_FOREST extends LanguageCode(value = "myq") {
-    override val name = "Maninka, Forest"
-    override val native: List[String] = List("Maninka, Forest")
-    override val iso639_1: Option[String] = None
-  }
-
   case object MYR_MUNICHE extends LanguageCode(value = "myr") {
     override val name = "Muniche"
     override val native: List[String] = List.empty[String]
@@ -27835,12 +26581,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object MYS_MESMES extends LanguageCode(value = "mys") {
     override val name = "Mesmes"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object MYT_MANDAYA_SANGAB extends LanguageCode(value = "myt") {
-    override val name = "Mandaya, Sangab"
-    override val native: List[String] = List("Mandaya, Sangab")
     override val iso639_1: Option[String] = None
   }
 
@@ -27907,12 +26647,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object MZE_MORAWA extends LanguageCode(value = "mze") {
     override val name = "Morawa"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object MZF_AIKU extends LanguageCode(value = "mzf") {
-    override val name = "Aiku"
-    override val native: List[String] = List("Aiku")
     override val iso639_1: Option[String] = None
   }
 
@@ -28051,12 +26785,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object NAC_NARAK extends LanguageCode(value = "nac") {
     override val name = "Narak"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object NAD_NIJADALI extends LanguageCode(value = "nad") {
-    override val name = "Nijadali"
-    override val native: List[String] = List("Nijadali")
     override val iso639_1: Option[String] = None
   }
 
@@ -28210,12 +26938,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object NBF_NAXI extends LanguageCode(value = "nbf") {
-    override val name = "Naxi"
-    override val native: List[String] = List("Naxi")
-    override val iso639_1: Option[String] = None
-  }
-
   case object NBG_NAGARCHAL extends LanguageCode(value = "nbg") {
     override val name = "Nagarchal"
     override val native: List[String] = List.empty[String]
@@ -28318,12 +27040,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object NBX_NGURA extends LanguageCode(value = "nbx") {
-    override val name = "Ngura"
-    override val native: List[String] = List("Ngura")
-    override val iso639_1: Option[String] = None
-  }
-
   case object NBY_NINGERA extends LanguageCode(value = "nby") {
     override val name = "Ningera"
     override val native: List[String] = List.empty[String]
@@ -28417,12 +27133,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object NCO_SIBE extends LanguageCode(value = "nco") {
     override val name = "Sibe"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object NCP_NDAKTUP extends LanguageCode(value = "ncp") {
-    override val name = "Ndaktup"
-    override val native: List[String] = List("Ndaktup")
     override val iso639_1: Option[String] = None
   }
 
@@ -28786,18 +27496,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object NFG_NYENG extends LanguageCode(value = "nfg") {
-    override val name = "Nyeng"
-    override val native: List[String] = List("Nyeng")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object NFK_SHAKARA extends LanguageCode(value = "nfk") {
-    override val name = "Shakara"
-    override val native: List[String] = List("Shakara")
-    override val iso639_1: Option[String] = None
-  }
-
   case object NFL_AYIWO extends LanguageCode(value = "nfl") {
     override val name = "Ayiwo"
     override val native: List[String] = List.empty[String]
@@ -28891,12 +27589,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object NGN_NGWO extends LanguageCode(value = "ngn") {
     override val name = "Ngwo"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object NGO_NGONI extends LanguageCode(value = "ngo") {
-    override val name = "Ngoni"
-    override val native: List[String] = List("Ngoni")
     override val iso639_1: Option[String] = None
   }
 
@@ -29020,12 +27712,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object NHJ_TLALITZLIPA_NAHUATL extends LanguageCode(value = "nhj") {
-    override val name = "Tlalitzlipa Nahuatl"
-    override val native: List[String] = List("Tlalitzlipa Nahuatl")
-    override val iso639_1: Option[String] = None
-  }
-
   case object NHK_ISTHMUS_COSOLEACAQUE_NAHUATL extends LanguageCode(value = "nhk") {
     override val name = "Isthmus-Cosoleacaque Nahuatl"
     override val native: List[String] = List.empty[String]
@@ -29065,12 +27751,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object NHR_NARO extends LanguageCode(value = "nhr") {
     override val name = "Naro"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object NHS_SOUTHEASTERN_PUEBLA_NAHUATL extends LanguageCode(value = "nhs") {
-    override val name = "Southeastern Puebla Nahuatl"
-    override val native: List[String] = List("Southeastern Puebla Nahuatl")
     override val iso639_1: Option[String] = None
   }
 
@@ -29500,12 +28180,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object NKY_NAGA_KHIAMNIUNGAN extends LanguageCode(value = "nky") {
-    override val name = "Naga, Khiamniungan"
-    override val native: List[String] = List("Naga, Khiamniungan")
-    override val iso639_1: Option[String] = None
-  }
-
   case object NKZ_NKARI extends LanguageCode(value = "nkz") {
     override val name = "Nkari"
     override val native: List[String] = List.empty[String]
@@ -29572,12 +28246,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object NLN_NAHUATL_DURANGO extends LanguageCode(value = "nln") {
-    override val name = "Nahuatl, Durango"
-    override val native: List[String] = List("Nahuatl, Durango")
-    override val iso639_1: Option[String] = None
-  }
-
   case object NLO_NGUL extends LanguageCode(value = "nlo") {
     override val name = "Ngul"
     override val native: List[String] = List.empty[String]
@@ -29587,12 +28255,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object NLQ_LAO_NAGA extends LanguageCode(value = "nlq") {
     override val name = "Lao Naga"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object NLR_NGARLA extends LanguageCode(value = "nlr") {
-    override val name = "Ngarla"
-    override val native: List[String] = List("Ngarla")
     override val iso639_1: Option[String] = None
   }
 
@@ -29896,12 +28558,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object NNS_NINGYE extends LanguageCode(value = "nns") {
-    override val name = "Ningye"
-    override val native: List[String] = List("Ningye")
-    override val iso639_1: Option[String] = None
-  }
-
   case object NNT_NANTICOKE extends LanguageCode(value = "nnt") {
     override val name = "Nanticoke"
     override val native: List[String] = List.empty[String]
@@ -29923,12 +28579,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object NNW_SOUTHERN_NUNI extends LanguageCode(value = "nnw") {
     override val name = "Southern Nuni"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object NNX_NGONG extends LanguageCode(value = "nnx") {
-    override val name = "Ngong"
-    override val native: List[String] = List("Ngong")
     override val iso639_1: Option[String] = None
   }
 
@@ -30016,21 +28666,9 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object NOM_NOCAMAN extends LanguageCode(value = "nom") {
-    override val name = "Nocamán"
-    override val native: List[String] = List("Nocamán")
-    override val iso639_1: Option[String] = None
-  }
-
   case object NON_OLD_NORSE extends LanguageCode(value = "non") {
     override val name = "Old Norse"
     override val native: List[String] = List("norrǿna")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object NOO_NOOTKA extends LanguageCode(value = "noo") {
-    override val name = "Nootka"
-    override val native: List[String] = List("Nuučaan̓uł")
     override val iso639_1: Option[String] = None
   }
 
@@ -30478,12 +29116,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object NTE_NATHEMBO extends LanguageCode(value = "nte") {
-    override val name = "Nathembo"
-    override val native: List[String] = List("Nathembo")
-    override val iso639_1: Option[String] = None
-  }
-
   case object NTG_NGANTANGARRA extends LanguageCode(value = "ntg") {
     override val name = "Ngantangarra"
     override val native: List[String] = List.empty[String]
@@ -30529,12 +29161,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object NTR_DELO extends LanguageCode(value = "ntr") {
     override val name = "Delo"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object NTS_NATAGAIMAS extends LanguageCode(value = "nts") {
-    override val name = "Natagaimas"
-    override val native: List[String] = List("Natagaimas")
     override val iso639_1: Option[String] = None
   }
 
@@ -30838,12 +29464,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object NXJ_NYADU extends LanguageCode(value = "nxj") {
-    override val name = "Nyadu"
-    override val native: List[String] = List("Nyadu")
-    override val iso639_1: Option[String] = None
-  }
-
   case object NXK_KOKI_NAGA extends LanguageCode(value = "nxk") {
     override val name = "Koki Naga"
     override val native: List[String] = List.empty[String]
@@ -30883,12 +29503,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object NXR_NINGGERUM extends LanguageCode(value = "nxr") {
     override val name = "Ninggerum"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object NXU_NARAU extends LanguageCode(value = "nxu") {
-    override val name = "Narau"
-    override val native: List[String] = List("Narau")
     override val iso639_1: Option[String] = None
   }
 
@@ -31198,12 +29812,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object OCC_OCCIDENTAL extends LanguageCode(value = "occ") {
-    override val name = "Occidental"
-    override val native: List[String] = List("Occidental")
-    override val iso639_1: Option[String] = None
-  }
-
   case object OCH_OLD_CHINESE extends LanguageCode(value = "och") {
     override val name = "Old Chinese"
     override val native: List[String] = List.empty[String]
@@ -31297,12 +29905,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object OGG_OGBOGOLO extends LanguageCode(value = "ogg") {
     override val name = "Ogbogolo"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object OGN_OGAN extends LanguageCode(value = "ogn") {
-    override val name = "Ogan"
-    override val native: List[String] = List("Ogan")
     override val iso639_1: Option[String] = None
   }
 
@@ -31588,12 +30190,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object OME_OMEJES extends LanguageCode(value = "ome") {
-    override val name = "Omejes"
-    override val native: List[String] = List("Omejes")
-    override val iso639_1: Option[String] = None
-  }
-
   case object OMG_OMAGUA extends LanguageCode(value = "omg") {
     override val name = "Omagua"
     override val native: List[String] = List.empty[String]
@@ -31804,12 +30400,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object OPE_OLD_PERSIAN extends LanguageCode(value = "ope") {
-    override val name = "Old Persian"
-    override val native: List[String] = List("Old Persian")
-    override val iso639_1: Option[String] = None
-  }
-
   case object OPK_KOPKAKA extends LanguageCode(value = "opk") {
     override val name = "Kopkaka"
     override val native: List[String] = List.empty[String]
@@ -31874,12 +30464,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val name = "Oriya (macrolanguage)"
     override val native: List[String] = List("ଓଡ଼ିଆ")
     override val iso639_1: Option[String] = Some("or")
-  }
-
-  case object ORK_OROKAIVA extends LanguageCode(value = "ork") {
-    override val name = "Orokaiva"
-    override val native: List[String] = List("Orokaiva")
-    override val iso639_1: Option[String] = None
   }
 
   case object ORM_OROMO extends LanguageCode(value = "orm") {
@@ -32152,12 +30736,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object OUN__O_UNG extends LanguageCode(value = "oun") {
-    override val name = "!O!ung"
-    override val native: List[String] = List("!O!ung")
-    override val iso639_1: Option[String] = None
-  }
-
   case object OVD_ELFDALIAN extends LanguageCode(value = "ovd") {
     override val name = "Elfdalian"
     override val native: List[String] = List.empty[String]
@@ -32254,12 +30832,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object PAJ_IPEKA_TAPUIA extends LanguageCode(value = "paj") {
-    override val name = "Ipeka-Tapuia"
-    override val native: List[String] = List("Ipeka-Tapuia")
-    override val iso639_1: Option[String] = None
-  }
-
   case object PAK_PARAKANA extends LanguageCode(value = "pak") {
     override val name = "Parakanã"
     override val native: List[String] = List.empty[String]
@@ -32311,12 +30883,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object PAS_PAPASENA extends LanguageCode(value = "pas") {
     override val name = "Papasena"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object PAT_PAPITALAI extends LanguageCode(value = "pat") {
-    override val name = "Papitalai"
-    override val native: List[String] = List("Papitalai")
     override val iso639_1: Option[String] = None
   }
 
@@ -32464,12 +31030,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object PBZ_PALU extends LanguageCode(value = "pbz") {
-    override val name = "Palu"
-    override val native: List[String] = List("Palu")
-    override val iso639_1: Option[String] = None
-  }
-
   case object PCA_SANTA_INES_AHUATEMPAN_POPOLOCA extends LanguageCode(value = "pca") {
     override val name = "Santa Inés Ahuatempan Popoloca"
     override val native: List[String] = List.empty[String]
@@ -32560,12 +31120,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object PCR_PANANG extends LanguageCode(value = "pcr") {
-    override val name = "Panang"
-    override val native: List[String] = List("Panang")
-    override val iso639_1: Option[String] = None
-  }
-
   case object PCW_PYAPUN extends LanguageCode(value = "pcw") {
     override val name = "Pyapun"
     override val native: List[String] = List.empty[String]
@@ -32626,12 +31180,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object PEC_SOUTHERN_PESISIR extends LanguageCode(value = "pec") {
-    override val name = "Southern Pesisir"
-    override val native: List[String] = List("Southern Pesisir")
-    override val iso639_1: Option[String] = None
-  }
-
   case object PED_MALA_PAPUA_NEW_GUINEA extends LanguageCode(value = "ped") {
     override val name = "Mala (Papua New Guinea)"
     override val native: List[String] = List.empty[String]
@@ -32689,12 +31237,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object PEM_PHENDE extends LanguageCode(value = "pem") {
     override val name = "Phende"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object PEN_PENESAK extends LanguageCode(value = "pen") {
-    override val name = "Penesak"
-    override val native: List[String] = List("Penesak")
     override val iso639_1: Option[String] = None
   }
 
@@ -32815,12 +31357,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object PGU_PAGU extends LanguageCode(value = "pgu") {
     override val name = "Pagu"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object PGY_PONGYONG extends LanguageCode(value = "pgy") {
-    override val name = "Pongyong"
-    override val native: List[String] = List("Pongyong")
     override val iso639_1: Option[String] = None
   }
 
@@ -32971,12 +31507,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object PIH_PITCAIRN_NORFOLK extends LanguageCode(value = "pih") {
     override val name = "Pitcairn-Norfolk"
     override val native: List[String] = List("Norfuk")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object PII_PINI extends LanguageCode(value = "pii") {
-    override val name = "Pini"
-    override val native: List[String] = List("Pini")
     override val iso639_1: Option[String] = None
   }
 
@@ -33196,12 +31726,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = Some("pi")
   }
 
-  case object PLJ_POLCI extends LanguageCode(value = "plj") {
-    override val name = "Polci"
-    override val native: List[String] = List("Polci")
-    override val iso639_1: Option[String] = None
-  }
-
   case object PLK_KOHISTANI_SHINA extends LanguageCode(value = "plk") {
     override val name = "Kohistani Shina"
     override val native: List[String] = List.empty[String]
@@ -33214,12 +31738,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object PLM_PALEMBANG extends LanguageCode(value = "plm") {
-    override val name = "Palembang"
-    override val native: List[String] = List("Palembang")
-    override val iso639_1: Option[String] = None
-  }
-
   case object PLN_PALENQUERO extends LanguageCode(value = "pln") {
     override val name = "Palenquero"
     override val native: List[String] = List.empty[String]
@@ -33229,12 +31747,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object PLO_OLUTA_POPOLUCA extends LanguageCode(value = "plo") {
     override val name = "Oluta Popoluca"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object PLP_PALPA extends LanguageCode(value = "plp") {
-    override val name = "Palpa"
-    override val native: List[String] = List("Palpa")
     override val iso639_1: Option[String] = None
   }
 
@@ -33304,12 +31816,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object PMC_PALUMATA extends LanguageCode(value = "pmc") {
-    override val name = "Palumata"
-    override val native: List[String] = List("Palumata")
-    override val iso639_1: Option[String] = None
-  }
-
   case object PMD_PALLANGANMIDDANG extends LanguageCode(value = "pmd") {
     override val name = "Pallanganmiddang"
     override val native: List[String] = List.empty[String]
@@ -33343,12 +31849,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object PMJ_SOUTHERN_PUMI extends LanguageCode(value = "pmj") {
     override val name = "Southern Pumi"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object PMK_PAMLICO extends LanguageCode(value = "pmk") {
-    override val name = "Pamlico"
-    override val native: List[String] = List("Pamlico")
     override val iso639_1: Option[String] = None
   }
 
@@ -33397,12 +31897,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object PMT_TUAMOTUAN extends LanguageCode(value = "pmt") {
     override val name = "Tuamotuan"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object PMU_PANJABI_MIRPUR extends LanguageCode(value = "pmu") {
-    override val name = "Panjabi, Mirpur"
-    override val native: List[String] = List("Panjabi, Mirpur")
     override val iso639_1: Option[String] = None
   }
 
@@ -33580,27 +32074,9 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object POA_POKOMAM_EASTERN extends LanguageCode(value = "poa") {
-    override val name = "Pokomam, Eastern"
-    override val native: List[String] = List("Pokomam, Eastern")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object POB_POKOMCHI_WESTERN extends LanguageCode(value = "pob") {
-    override val name = "Pokomchí, Western"
-    override val native: List[String] = List("Pokomchí, Western")
-    override val iso639_1: Option[String] = None
-  }
-
   case object POC_POQOMAM extends LanguageCode(value = "poc") {
     override val name = "Poqomam"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object POD_PONARES extends LanguageCode(value = "pod") {
-    override val name = "Ponares"
-    override val native: List[String] = List("Ponares")
     override val iso639_1: Option[String] = None
   }
 
@@ -33631,12 +32107,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object POI_HIGHLAND_POPOLUCA extends LanguageCode(value = "poi") {
     override val name = "Highland Popoluca"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object POJ_LOWER_POKOMO extends LanguageCode(value = "poj") {
-    override val name = "Lower Pokomo"
-    override val native: List[String] = List("Lower Pokomo")
     override val iso639_1: Option[String] = None
   }
 
@@ -33700,12 +32170,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object POU_POKOMAM_SOUTHERN extends LanguageCode(value = "pou") {
-    override val name = "Pokomam, Southern"
-    override val native: List[String] = List("Pokomam, Southern")
-    override val iso639_1: Option[String] = None
-  }
-
   case object POV_UPPER_GUINEA_CRIOULO extends LanguageCode(value = "pov") {
     override val name = "Upper Guinea Crioulo"
     override val native: List[String] = List.empty[String]
@@ -33727,12 +32191,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object POY_POGOLO extends LanguageCode(value = "poy") {
     override val name = "Pogolo"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object PPA_PAO extends LanguageCode(value = "ppa") {
-    override val name = "Pao"
-    override val native: List[String] = List("Pao")
     override val iso639_1: Option[String] = None
   }
 
@@ -33790,12 +32248,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object PPR_PIRU extends LanguageCode(value = "ppr") {
-    override val name = "Piru"
-    override val native: List[String] = List("Piru")
-    override val iso639_1: Option[String] = None
-  }
-
   case object PPS_SAN_LUIS_TEMALACAYUCA_POPOLOCA extends LanguageCode(value = "pps") {
     override val name = "San Luís Temalacayuca Popoloca"
     override val native: List[String] = List.empty[String]
@@ -33814,12 +32266,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object PPV_PAPAVO extends LanguageCode(value = "ppv") {
-    override val name = "Papavô"
-    override val native: List[String] = List("Papavô")
-    override val iso639_1: Option[String] = None
-  }
-
   case object PQA_PAA extends LanguageCode(value = "pqa") {
     override val name = "Pa'a"
     override val native: List[String] = List.empty[String]
@@ -33829,12 +32275,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object PQM_MALECITE_PASSAMAQUODDY extends LanguageCode(value = "pqm") {
     override val name = "Malecite-Passamaquoddy"
     override val native: List[String] = List("Peskotomuhkati")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object PRB_LUA extends LanguageCode(value = "prb") {
-    override val name = "Lua'"
-    override val native: List[String] = List("Lua'")
     override val iso639_1: Option[String] = None
   }
 
@@ -33910,12 +32350,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object PRP_PERSIAN extends LanguageCode(value = "prp") {
-    override val name = "Persian"
-    override val native: List[String] = List("فارسی")
-    override val iso639_1: Option[String] = None
-  }
-
   case object PRQ_ASHENINKA_PERENE extends LanguageCode(value = "prq") {
     override val name = "Ashéninka Perené"
     override val native: List[String] = List.empty[String]
@@ -33946,12 +32380,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object PRV_PROVENCAL extends LanguageCode(value = "prv") {
-    override val name = "Provençal"
-    override val native: List[String] = List("Provençal")
-    override val iso639_1: Option[String] = None
-  }
-
   case object PRW_PARAWEN extends LanguageCode(value = "prw") {
     override val name = "Parawen"
     override val native: List[String] = List.empty[String]
@@ -33961,12 +32389,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object PRX_PURIK extends LanguageCode(value = "prx") {
     override val name = "Purik"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object PRY_PRAY_3 extends LanguageCode(value = "pry") {
-    override val name = "Pray 3"
-    override val native: List[String] = List("Pray 3")
     override val iso639_1: Option[String] = None
   }
 
@@ -34222,21 +32644,9 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object PUK_PU_KO extends LanguageCode(value = "puk") {
-    override val name = "Pu Ko"
-    override val native: List[String] = List("Pu Ko")
-    override val iso639_1: Option[String] = None
-  }
-
   case object PUM_PUMA extends LanguageCode(value = "pum") {
     override val name = "Puma"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object PUN_PUBIAN extends LanguageCode(value = "pun") {
-    override val name = "Pubian"
-    override val native: List[String] = List("Pubian")
     override val iso639_1: Option[String] = None
   }
 
@@ -34297,12 +32707,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object PUY_PURISIMENO extends LanguageCode(value = "puy") {
     override val name = "Purisimeño"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object PUZ_NAGA_PURUM extends LanguageCode(value = "puz") {
-    override val name = "Naga, Purum"
-    override val native: List[String] = List("Naga, Purum")
     override val iso639_1: Option[String] = None
   }
 
@@ -34480,12 +32884,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object QUJ_QUICHE_JOYABAJ extends LanguageCode(value = "quj") {
-    override val name = "Quiché, Joyabaj"
-    override val native: List[String] = List("Quiché, Joyabaj")
-    override val iso639_1: Option[String] = None
-  }
-
   case object QUK_CHACHAPOYAS_QUECHUA extends LanguageCode(value = "quk") {
     override val name = "Chachapoyas Quechua"
     override val native: List[String] = List.empty[String]
@@ -34531,18 +32929,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object QUS_SANTIAGO_DEL_ESTERO_QUICHUA extends LanguageCode(value = "qus") {
     override val name = "Santiago del Estero Quichua"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object QUT_QUICHE_WEST_CENTRAL extends LanguageCode(value = "qut") {
-    override val name = "Quiché, West Central"
-    override val native: List[String] = List("Quiché, West Central")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object QUU_QUICHE_EASTERN extends LanguageCode(value = "quu") {
-    override val name = "Quiché, Eastern"
-    override val native: List[String] = List("Quiché, Eastern")
     override val iso639_1: Option[String] = None
   }
 
@@ -34720,12 +33106,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object QXI_QUICHE_SAN_ANDRES extends LanguageCode(value = "qxi") {
-    override val name = "Quiché, San Andrés"
-    override val native: List[String] = List("Quiché, San Andrés")
-    override val iso639_1: Option[String] = None
-  }
-
   case object QXL_SALASACA_HIGHLAND_QUICHUA extends LanguageCode(value = "qxl") {
     override val name = "Salasaca Highland Quichua"
     override val native: List[String] = List.empty[String]
@@ -34819,12 +33199,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object RAD_RADE extends LanguageCode(value = "rad") {
     override val name = "Rade"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object RAE_RANAU extends LanguageCode(value = "rae") {
-    override val name = "Ranau"
-    override val native: List[String] = List("Ranau")
     override val iso639_1: Option[String] = None
   }
 
@@ -35134,12 +33508,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object RIE_RIEN extends LanguageCode(value = "rie") {
-    override val name = "Rien"
-    override val native: List[String] = List("Rien")
-    override val iso639_1: Option[String] = None
-  }
-
   case object RIF_TARIFIT extends LanguageCode(value = "rif") {
     override val name = "Tarifit"
     override val native: List[String] = List.empty[String]
@@ -35179,12 +33547,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object RIU_RIUNG extends LanguageCode(value = "riu") {
     override val name = "Riung"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object RJB_RAJBANSHI extends LanguageCode(value = "rjb") {
-    override val name = "Rajbanshi"
-    override val native: List[String] = List("Rajbanshi")
     override val iso639_1: Option[String] = None
   }
 
@@ -35344,12 +33706,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object RMR_CALO extends LanguageCode(value = "rmr") {
-    override val name = "Caló"
-    override val native: List[String] = List("caló")
-    override val iso639_1: Option[String] = None
-  }
-
   case object RMS_ROMANIAN_SIGN_LANGUAGE extends LanguageCode(value = "rms") {
     override val name = "Romanian Sign Language"
     override val native: List[String] = List.empty[String]
@@ -35395,12 +33751,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object RMZ_MARMA extends LanguageCode(value = "rmz") {
     override val name = "Marma"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object RNA_RUNA extends LanguageCode(value = "rna") {
-    override val name = "Runa"
-    override val native: List[String] = List("Runa")
     override val iso639_1: Option[String] = None
   }
 
@@ -35581,12 +33931,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object RSB_ROMANO_SERBIAN extends LanguageCode(value = "rsb") {
     override val name = "Romano-Serbian"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object RSI_RENNELLESE_SIGN_LANGUAGE extends LanguageCode(value = "rsi") {
-    override val name = "Rennellese Sign Language"
-    override val native: List[String] = List("Rennellese Sign Language")
     override val iso639_1: Option[String] = None
   }
 
@@ -35788,12 +34132,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object RWS_RAWAS extends LanguageCode(value = "rws") {
-    override val name = "Rawas"
-    override val native: List[String] = List("Rawas")
-    override val iso639_1: Option[String] = None
-  }
-
   case object RXD_NGARDI extends LanguageCode(value = "rxd") {
     override val name = "Ngardi"
     override val native: List[String] = List.empty[String]
@@ -35905,12 +34243,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object SAO_SAUSE extends LanguageCode(value = "sao") {
     override val name = "Sause"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object SAP_SANAPANA extends LanguageCode(value = "sap") {
-    override val name = "Sanapaná"
-    override val native: List[String] = List("Sanapaná")
     override val iso639_1: Option[String] = None
   }
 
@@ -36130,12 +34462,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object SCA_SANSU extends LanguageCode(value = "sca") {
-    override val name = "Sansu"
-    override val native: List[String] = List("Sansu")
-    override val iso639_1: Option[String] = None
-  }
-
   case object SCB_CHUT extends LanguageCode(value = "scb") {
     override val name = "Chut"
     override val native: List[String] = List.empty[String]
@@ -36262,12 +34588,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object SDD_SEMENDO extends LanguageCode(value = "sdd") {
-    override val name = "Semendo"
-    override val native: List[String] = List("Semendo")
-    override val iso639_1: Option[String] = None
-  }
-
   case object SDE_SURUBU extends LanguageCode(value = "sde") {
     override val name = "Surubu"
     override val native: List[String] = List.empty[String]
@@ -36292,12 +34612,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object SDI_SINDANG_KELINGI extends LanguageCode(value = "sdi") {
-    override val name = "Sindang Kelingi"
-    override val native: List[String] = List("Sindang Kelingi")
-    override val iso639_1: Option[String] = None
-  }
-
   case object SDJ_SUUNDI extends LanguageCode(value = "sdj") {
     override val name = "Suundi"
     override val native: List[String] = List.empty[String]
@@ -36313,12 +34627,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object SDL_SAUDI_ARABIAN_SIGN_LANGUAGE extends LanguageCode(value = "sdl") {
     override val name = "Saudi Arabian Sign Language"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object SDM_SEMANDANG extends LanguageCode(value = "sdm") {
-    override val name = "Semandang"
-    override val native: List[String] = List("Semandang")
     override val iso639_1: Option[String] = None
   }
 
@@ -36616,21 +34924,9 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object SGL_SANGLECHI_ISHKASHIMI extends LanguageCode(value = "sgl") {
-    override val name = "Sanglechi-Ishkashimi"
-    override val native: List[String] = List("Sanglechi-Ishkashimi")
-    override val iso639_1: Option[String] = None
-  }
-
   case object SGM_SINGA extends LanguageCode(value = "sgm") {
     override val name = "Singa"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object SGO_SONGA extends LanguageCode(value = "sgo") {
-    override val name = "Songa"
-    override val native: List[String] = List("Songa")
     override val iso639_1: Option[String] = None
   }
 
@@ -36847,12 +35143,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object SIB_SEBOP extends LanguageCode(value = "sib") {
     override val name = "Sebop"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object SIC_MALINGUAT extends LanguageCode(value = "sic") {
-    override val name = "Malinguat"
-    override val native: List[String] = List("Malinguat")
     override val iso639_1: Option[String] = None
   }
 
@@ -37144,18 +35434,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object SKK_SOK extends LanguageCode(value = "skk") {
-    override val name = "Sok"
-    override val native: List[String] = List("Sok")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object SKL_SELAKO extends LanguageCode(value = "skl") {
-    override val name = "Selako"
-    override val native: List[String] = List("Selako")
-    override val iso639_1: Option[String] = None
-  }
-
   case object SKM_KUTONG extends LanguageCode(value = "skm") {
     override val name = "Kutong"
     override val native: List[String] = List.empty[String]
@@ -37240,12 +35518,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object SLB_KAHUMAMAHON_SALUAN extends LanguageCode(value = "slb") {
-    override val name = "Kahumamahon Saluan"
-    override val native: List[String] = List("Kahumamahon Saluan")
-    override val iso639_1: Option[String] = None
-  }
-
   case object SLC_SALIBA extends LanguageCode(value = "slc") {
     override val name = "Sáliba"
     override val native: List[String] = List.empty[String]
@@ -37324,12 +35596,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object SLQ_SALCHUQ extends LanguageCode(value = "slq") {
-    override val name = "Salchuq"
-    override val native: List[String] = List("Salchuq")
-    override val iso639_1: Option[String] = None
-  }
-
   case object SLR_SALAR extends LanguageCode(value = "slr") {
     override val name = "Salar"
     override val native: List[String] = List("Salar")
@@ -37399,12 +35665,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object SMC_SOM extends LanguageCode(value = "smc") {
     override val name = "Som"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object SMD_SAMA extends LanguageCode(value = "smd") {
-    override val name = "Sama"
-    override val native: List[String] = List("Sama")
     override val iso639_1: Option[String] = None
   }
 
@@ -37540,12 +35800,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = Some("sn")
   }
 
-  case object SNB_SEBUYAU extends LanguageCode(value = "snb") {
-    override val name = "Sebuyau"
-    override val native: List[String] = List("Sebuyau")
-    override val iso639_1: Option[String] = None
-  }
-
   case object SNC_SINAUGORO extends LanguageCode(value = "snc") {
     override val name = "Sinaugoro"
     override val native: List[String] = List.empty[String]
@@ -37573,12 +35827,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object SNG_SANGA_DEMOCRATIC_REPUBLIC_OF_CONGO extends LanguageCode(value = "sng") {
     override val name = "Sanga (Democratic Republic of Congo)"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object SNH_SHINABO extends LanguageCode(value = "snh") {
-    override val name = "Shinabo"
-    override val native: List[String] = List("Shinabo")
     override val iso639_1: Option[String] = None
   }
 
@@ -38086,12 +36334,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object SRJ_SERAWAI extends LanguageCode(value = "srj") {
-    override val name = "Serawai"
-    override val native: List[String] = List("Serawai")
-    override val iso639_1: Option[String] = None
-  }
-
   case object SRK_SERUDUNG_MURUT extends LanguageCode(value = "srk") {
     override val name = "Serudung Murut"
     override val native: List[String] = List.empty[String]
@@ -38350,12 +36592,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object STC_SANTA_CRUZ extends LanguageCode(value = "stc") {
-    override val name = "Santa Cruz"
-    override val native: List[String] = List("Santa Cruz")
-    override val iso639_1: Option[String] = None
-  }
-
   case object STD_SENTINEL extends LanguageCode(value = "std") {
     override val name = "Sentinel"
     override val native: List[String] = List.empty[String]
@@ -38506,21 +36742,9 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object SUF_TARPIA extends LanguageCode(value = "suf") {
-    override val name = "Tarpia"
-    override val native: List[String] = List("Tarpia")
-    override val iso639_1: Option[String] = None
-  }
-
   case object SUG_SUGANGA extends LanguageCode(value = "sug") {
     override val name = "Suganga"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object SUH_SUBA extends LanguageCode(value = "suh") {
-    override val name = "Suba"
-    override val native: List[String] = List("Suba")
     override val iso639_1: Option[String] = None
   }
 
@@ -38539,18 +36763,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object SUK_SUKUMA extends LanguageCode(value = "suk") {
     override val name = "Sukuma"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object SUL_SURIGAONON extends LanguageCode(value = "sul") {
-    override val name = "Surigaonon"
-    override val native: List[String] = List("Surigaonon")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object SUM_SUMO_MAYANGNA extends LanguageCode(value = "sum") {
-    override val name = "Sumo-Mayangna"
-    override val native: List[String] = List("Sumo-Mayangna")
     override val iso639_1: Option[String] = None
   }
 
@@ -38587,12 +36799,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object SUT_SUBTIABA extends LanguageCode(value = "sut") {
     override val name = "Subtiaba"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object SUU_SUNGKAI extends LanguageCode(value = "suu") {
-    override val name = "Sungkai"
-    override val native: List[String] = List("Sungkai")
     override val iso639_1: Option[String] = None
   }
 
@@ -38659,12 +36865,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object SVM_SLAVOMOLISANO extends LanguageCode(value = "svm") {
     override val name = "Slavomolisano"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object SVR_SAVARA extends LanguageCode(value = "svr") {
-    override val name = "Savara"
-    override val native: List[String] = List("Savara")
     override val iso639_1: Option[String] = None
   }
 
@@ -39004,12 +37204,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object SZD_SERU extends LanguageCode(value = "szd") {
-    override val name = "Seru"
-    override val native: List[String] = List("Seru")
-    override val iso639_1: Option[String] = None
-  }
-
   case object SZE_SEZE extends LanguageCode(value = "sze") {
     override val name = "Seze"
     override val native: List[String] = List.empty[String]
@@ -39019,12 +37213,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object SZG_SENGELE extends LanguageCode(value = "szg") {
     override val name = "Sengele"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object SZK_SIZAKI extends LanguageCode(value = "szk") {
-    override val name = "Sizaki"
-    override val native: List[String] = List("Sizaki")
     override val iso639_1: Option[String] = None
   }
 
@@ -39223,12 +37411,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object TBA_AIKANA extends LanguageCode(value = "tba") {
     override val name = "Aikanã"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object TBB_TAPEBA extends LanguageCode(value = "tbb") {
-    override val name = "Tapeba"
-    override val native: List[String] = List("Tapeba")
     override val iso639_1: Option[String] = None
   }
 
@@ -39622,12 +37804,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object TDU_DUSUN_TEMPASUK extends LanguageCode(value = "tdu") {
-    override val name = "Dusun, Tempasuk"
-    override val native: List[String] = List("Dusun, Tempasuk")
-    override val iso639_1: Option[String] = None
-  }
-
   case object TDV_TORO extends LanguageCode(value = "tdv") {
     override val name = "Toro"
     override val native: List[String] = List.empty[String]
@@ -39862,12 +38038,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object TGG_TANGGA extends LanguageCode(value = "tgg") {
-    override val name = "Tangga"
-    override val native: List[String] = List("Tangga")
-    override val iso639_1: Option[String] = None
-  }
-
   case object TGH_TOBAGONIAN_CREOLE_ENGLISH extends LanguageCode(value = "tgh") {
     override val name = "Tobagonian Creole English"
     override val native: List[String] = List.empty[String]
@@ -39982,12 +38152,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = Some("th")
   }
 
-  case object THC_TAI_HANG_TONG extends LanguageCode(value = "thc") {
-    override val name = "Tai Hang Tong"
-    override val native: List[String] = List("Tai Hang Tong")
-    override val iso639_1: Option[String] = None
-  }
-
   case object THD_KUUK_THAAYORRE extends LanguageCode(value = "thd") {
     override val name = "Kuuk Thaayorre"
     override val native: List[String] = List.empty[String]
@@ -40084,18 +38248,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object THW_THUDAM extends LanguageCode(value = "thw") {
-    override val name = "Thudam"
-    override val native: List[String] = List("Thudam")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object THX_THE extends LanguageCode(value = "thx") {
-    override val name = "The"
-    override val native: List[String] = List("The")
-    override val iso639_1: Option[String] = None
-  }
-
   case object THY_THA extends LanguageCode(value = "thy") {
     override val name = "Tha"
     override val native: List[String] = List.empty[String]
@@ -40117,18 +38269,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object TIC_TIRA extends LanguageCode(value = "tic") {
     override val name = "Tira"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object TID_TIDONG extends LanguageCode(value = "tid") {
-    override val name = "Tidong"
-    override val native: List[String] = List("Tidong")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object TIE_TINGAL extends LanguageCode(value = "tie") {
-    override val name = "Tingal"
-    override val native: List[String] = List("Tingal")
     override val iso639_1: Option[String] = None
   }
 
@@ -40366,12 +38506,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object TKK_TAKPA extends LanguageCode(value = "tkk") {
-    override val name = "Takpa"
-    override val native: List[String] = List("Takpa")
-    override val iso639_1: Option[String] = None
-  }
-
   case object TKL_TOKELAU extends LanguageCode(value = "tkl") {
     override val name = "Tokelau"
     override val native: List[String] = List.empty[String]
@@ -40471,12 +38605,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object TLD_TALAUD extends LanguageCode(value = "tld") {
     override val name = "Talaud"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object TLE_SOUTHERN_MARAKWET extends LanguageCode(value = "tle") {
-    override val name = "Southern Marakwet"
-    override val native: List[String] = List("Southern Marakwet")
     override val iso639_1: Option[String] = None
   }
 
@@ -40582,12 +38710,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object TLW_WEMALE_SOUTH extends LanguageCode(value = "tlw") {
-    override val name = "Wemale, South"
-    override val native: List[String] = List("Wemale, South")
-    override val iso639_1: Option[String] = None
-  }
-
   case object TLX_KHEHEK extends LanguageCode(value = "tlx") {
     override val name = "Khehek"
     override val native: List[String] = List.empty[String]
@@ -40597,12 +38719,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object TLY_TALYSH extends LanguageCode(value = "tly") {
     override val name = "Talysh"
     override val native: List[String] = List("толышә")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object TLZ_TOALA extends LanguageCode(value = "tlz") {
-    override val name = "Toala'"
-    override val native: List[String] = List("Toala'")
     override val iso639_1: Option[String] = None
   }
 
@@ -40666,12 +38782,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object TMK_TAMANG_NORTHWESTERN extends LanguageCode(value = "tmk") {
-    override val name = "Tamang, Northwestern"
-    override val native: List[String] = List("Tamang, Northwestern")
-    override val iso639_1: Option[String] = None
-  }
-
   case object TML_TAMNIM_CITAK extends LanguageCode(value = "tml") {
     override val name = "Tamnim Citak"
     override val native: List[String] = List.empty[String]
@@ -40693,12 +38803,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object TMO_TEMOQ extends LanguageCode(value = "tmo") {
     override val name = "Temoq"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object TMP_TAI_MENE extends LanguageCode(value = "tmp") {
-    override val name = "Tai Mène"
-    override val native: List[String] = List("Tai Mène")
     override val iso639_1: Option[String] = None
   }
 
@@ -40744,12 +38848,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object TMX_TOMYANG extends LanguageCode(value = "tmx") {
-    override val name = "Tomyang"
-    override val native: List[String] = List("Tomyang")
-    override val iso639_1: Option[String] = None
-  }
-
   case object TMY_TAMI extends LanguageCode(value = "tmy") {
     override val name = "Tami"
     override val native: List[String] = List.empty[String]
@@ -40786,18 +38884,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object TNE_KALLAHAN_TINOC extends LanguageCode(value = "tne") {
-    override val name = "Kallahan, Tinoc"
-    override val native: List[String] = List("Kallahan, Tinoc")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object TNF_TANGSHEWI extends LanguageCode(value = "tnf") {
-    override val name = "Tangshewi"
-    override val native: List[String] = List("Tangshewi")
-    override val iso639_1: Option[String] = None
-  }
-
   case object TNG_TOBANGA extends LanguageCode(value = "tng") {
     override val name = "Tobanga"
     override val native: List[String] = List.empty[String]
@@ -40813,12 +38899,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object TNI_TANDIA extends LanguageCode(value = "tni") {
     override val name = "Tandia"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object TNJ_TANJONG extends LanguageCode(value = "tnj") {
-    override val name = "Tanjong"
-    override val native: List[String] = List("Tanjong")
     override val iso639_1: Option[String] = None
   }
 
@@ -40936,12 +39016,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object TOE_TOMEDES extends LanguageCode(value = "toe") {
-    override val name = "Tomedes"
-    override val native: List[String] = List("Tomedes")
-    override val iso639_1: Option[String] = None
-  }
-
   case object TOF_GIZRRA extends LanguageCode(value = "tof") {
     override val name = "Gizrra"
     override val native: List[String] = List.empty[String]
@@ -41023,12 +39097,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object TOS_HIGHLAND_TOTONAC extends LanguageCode(value = "tos") {
     override val name = "Highland Totonac"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object TOT_PATLA_CHICONTLA_TOTONAC extends LanguageCode(value = "tot") {
-    override val name = "Patla-Chicontla Totonac"
-    override val native: List[String] = List("Patla-Chicontla Totonac")
     override val iso639_1: Option[String] = None
   }
 
@@ -41173,12 +39241,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object TPV_TANAPAG extends LanguageCode(value = "tpv") {
     override val name = "Tanapag"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object TPW_TUPI extends LanguageCode(value = "tpw") {
-    override val name = "Tupí"
-    override val native: List[String] = List("Tupí")
     override val iso639_1: Option[String] = None
   }
 
@@ -41446,12 +39508,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object TSF_TAMANG_SOUTHWESTERN extends LanguageCode(value = "tsf") {
-    override val name = "Tamang, Southwestern"
-    override val native: List[String] = List("Tamang, Southwestern")
-    override val iso639_1: Option[String] = None
-  }
-
   case object TSG_TAUSUG extends LanguageCode(value = "tsg") {
     override val name = "Tausug"
     override val native: List[String] = List.empty[String]
@@ -41707,12 +39763,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object TTW_LONG_WAT extends LanguageCode(value = "ttw") {
     override val name = "Long Wat"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object TTX_TUTONG_1 extends LanguageCode(value = "ttx") {
-    override val name = "Tutong 1"
-    override val native: List[String] = List("Tutong 1")
     override val iso639_1: Option[String] = None
   }
 
@@ -42292,24 +40342,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object TZB_TZELTAL_BACHAJON extends LanguageCode(value = "tzb") {
-    override val name = "Tzeltal, Bachajón"
-    override val native: List[String] = List("Tzeltal, Bachajón")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object TZC_TZOTZIL_CHAMULA extends LanguageCode(value = "tzc") {
-    override val name = "Tzotzil, Chamula"
-    override val native: List[String] = List("Tzotzil, Chamula")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object TZE_TZOTZIL_CHENALHO extends LanguageCode(value = "tze") {
-    override val name = "Tzotzil, Chenalhó"
-    override val native: List[String] = List("Tzotzil, Chenalhó")
-    override val iso639_1: Option[String] = None
-  }
-
   case object TZH_TZELTAL extends LanguageCode(value = "tzh") {
     override val name = "Tzeltal"
     override val native: List[String] = List.empty[String]
@@ -42346,33 +40378,9 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object TZS_TZOTZIL_SAN_ANDRES_LARRAINZAR extends LanguageCode(value = "tzs") {
-    override val name = "Tzotzil, San Andrés Larrainzar"
-    override val native: List[String] = List("Tzotzil, San Andrés Larrainzar")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object TZT_TZUTUJIL_WESTERN extends LanguageCode(value = "tzt") {
-    override val name = "Tzutujil, Western"
-    override val native: List[String] = List("Tzutujil, Western")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object TZU_TZOTZIL_HUIXTAN extends LanguageCode(value = "tzu") {
-    override val name = "Tzotzil, Huixtán"
-    override val native: List[String] = List("Tzotzil, Huixtán")
-    override val iso639_1: Option[String] = None
-  }
-
   case object TZX_TABRIAK extends LanguageCode(value = "tzx") {
     override val name = "Tabriak"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object TZZ_TZOTZIL_ZINACANTAN extends LanguageCode(value = "tzz") {
-    override val name = "Tzotzil, Zinacantán"
-    override val native: List[String] = List("Tzotzil, Zinacantán")
     override val iso639_1: Option[String] = None
   }
 
@@ -42409,12 +40417,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object UBL_BUHINON_BIKOL extends LanguageCode(value = "ubl") {
     override val name = "Buhi'non Bikol"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object UBM_UPPER_BARAM_KENYAH extends LanguageCode(value = "ubm") {
-    override val name = "Upper Baram Kenyah"
-    override val native: List[String] = List("Upper Baram Kenyah")
     override val iso639_1: Option[String] = None
   }
 
@@ -42856,12 +40858,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object UNP_WORORA extends LanguageCode(value = "unp") {
-    override val name = "Worora"
-    override val native: List[String] = List("Worora")
-    override val iso639_1: Option[String] = None
-  }
-
   case object UNR_MUNDARI extends LanguageCode(value = "unr") {
     override val name = "Mundari"
     override val native: List[String] = List.empty[String]
@@ -42883,12 +40879,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object UNZ_UNDE_KAILI extends LanguageCode(value = "unz") {
     override val name = "Unde Kaili"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object UOK_UOKHA extends LanguageCode(value = "uok") {
-    override val name = "Uokha"
-    override val native: List[String] = List("Uokha")
     override val iso639_1: Option[String] = None
   }
 
@@ -43129,12 +41119,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object UUM_URUM extends LanguageCode(value = "uum") {
     override val name = "Urum"
     override val native: List[String] = List("Урум")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object UUN_KULON_PAZEH extends LanguageCode(value = "uun") {
-    override val name = "Kulon-Pazeh"
-    override val native: List[String] = List("Kulon-Pazeh")
     override val iso639_1: Option[String] = None
   }
 
@@ -43444,12 +41428,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object VKI_IJA_ZUBA extends LanguageCode(value = "vki") {
-    override val name = "Ija-Zuba"
-    override val native: List[String] = List("Ija-Zuba")
-    override val iso639_1: Option[String] = None
-  }
-
   case object VKJ_KUJARGE extends LanguageCode(value = "vkj") {
     override val name = "Kujarge"
     override val native: List[String] = List.empty[String]
@@ -43504,12 +41482,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object VKY_KAYU_AGUNG extends LanguageCode(value = "vky") {
-    override val name = "Kayu Agung"
-    override val native: List[String] = List("Kayu Agung")
-    override val iso639_1: Option[String] = None
-  }
-
   case object VKZ_KORO_ZUBA extends LanguageCode(value = "vkz") {
     override val name = "Koro Zuba"
     override val native: List[String] = List.empty[String]
@@ -43519,12 +41491,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object VLP_VALPEI extends LanguageCode(value = "vlp") {
     override val name = "Valpei"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object VLR_VATRATA extends LanguageCode(value = "vlr") {
-    override val name = "Vatrata"
-    override val native: List[String] = List("Vatrata")
     override val iso639_1: Option[String] = None
   }
 
@@ -43609,12 +41575,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object VMM_MITLATONGO_MIXTEC extends LanguageCode(value = "vmm") {
     override val name = "Mitlatongo Mixtec"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object VMO_MUKO_MUKO extends LanguageCode(value = "vmo") {
-    override val name = "Muko-Muko"
-    override val native: List[String] = List("Muko-Muko")
     override val iso639_1: Option[String] = None
   }
 
@@ -44224,12 +42184,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object WGW_WAGAWAGA extends LanguageCode(value = "wgw") {
-    override val name = "Wagawaga"
-    override val native: List[String] = List("Wagawaga")
-    override val iso639_1: Option[String] = None
-  }
-
   case object WGY_WARRGAMAY extends LanguageCode(value = "wgy") {
     override val name = "Warrgamay"
     override val native: List[String] = List.empty[String]
@@ -44338,12 +42292,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object WIT_WINTU extends LanguageCode(value = "wit") {
-    override val name = "Wintu"
-    override val native: List[String] = List("Wintu")
-    override val iso639_1: Option[String] = None
-  }
-
   case object WIU_WIRU extends LanguageCode(value = "wiu") {
     override val name = "Wiru"
     override val native: List[String] = List.empty[String]
@@ -44353,12 +42301,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object WIV_VITU extends LanguageCode(value = "wiv") {
     override val name = "Vitu"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object WIW_WIRANGU extends LanguageCode(value = "wiw") {
-    override val name = "Wirangu"
-    override val native: List[String] = List("Wirangu")
     override val iso639_1: Option[String] = None
   }
 
@@ -44818,27 +42760,9 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object WRA_WARAPU extends LanguageCode(value = "wra") {
-    override val name = "Warapu"
-    override val native: List[String] = List("Warapu")
-    override val iso639_1: Option[String] = None
-  }
-
   case object WRB_WALUWARRA extends LanguageCode(value = "wrb") {
     override val name = "Waluwarra"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object WRD_WARDUJI extends LanguageCode(value = "wrd") {
-    override val name = "Warduji"
-    override val native: List[String] = List("Warduji")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object WRE_WARE extends LanguageCode(value = "wre") {
-    override val name = "Ware"
-    override val native: List[String] = List("Ware")
     override val iso639_1: Option[String] = None
   }
 
@@ -45154,12 +43078,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object WYA_WYANDOT extends LanguageCode(value = "wya") {
-    override val name = "Wyandot"
-    override val native: List[String] = List("Wyandot")
-    override val iso639_1: Option[String] = None
-  }
-
   case object WYB_WANGAAYBUWAN_NGIYAMBAA extends LanguageCode(value = "wyb") {
     override val name = "Wangaaybuwan-Ngiyambaa"
     override val native: List[String] = List.empty[String]
@@ -45229,12 +43147,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object XAG_AGHWAN extends LanguageCode(value = "xag") {
     override val name = "Aghwan"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object XAH_KAHAYAN extends LanguageCode(value = "xah") {
-    override val name = "Kahayan"
-    override val native: List[String] = List("Kahayan")
     override val iso639_1: Option[String] = None
   }
 
@@ -45334,12 +43246,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object XBA_KAMBA_BRAZIL extends LanguageCode(value = "xba") {
-    override val name = "Kamba (Brazil)"
-    override val native: List[String] = List("Kamba (Brazil)")
-    override val iso639_1: Option[String] = None
-  }
-
   case object XBB_LOWER_BURDEKIN extends LanguageCode(value = "xbb") {
     override val name = "Lower Burdekin"
     override val native: List[String] = List.empty[String]
@@ -45415,12 +43321,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object XBW_KAMBIWA extends LanguageCode(value = "xbw") {
     override val name = "Kambiwá"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object XBX_KABIXI extends LanguageCode(value = "xbx") {
-    override val name = "Kabixí"
-    override val native: List[String] = List("Kabixí")
     override val iso639_1: Option[String] = None
   }
 
@@ -45754,12 +43654,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object XIA_XIANDAO extends LanguageCode(value = "xia") {
-    override val name = "Xiandao"
-    override val native: List[String] = List("Xiandao")
-    override val iso639_1: Option[String] = None
-  }
-
   case object XIB_IBERIAN extends LanguageCode(value = "xib") {
     override val name = "Iberian"
     override val native: List[String] = List.empty[String]
@@ -45781,12 +43675,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object XIN_XINCA extends LanguageCode(value = "xin") {
     override val name = "Xinca"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object XIP_XIPINAWA extends LanguageCode(value = "xip") {
-    override val name = "Xipináwa"
-    override val native: List[String] = List("Xipináwa")
     override val iso639_1: Option[String] = None
   }
 
@@ -45868,12 +43756,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object XKH_KARAHAWYANA extends LanguageCode(value = "xkh") {
-    override val name = "Karahawyana"
-    override val native: List[String] = List("Karahawyana")
-    override val iso639_1: Option[String] = None
-  }
-
   case object XKI_KENYAN_SIGN_LANGUAGE extends LanguageCode(value = "xki") {
     override val name = "Kenyan Sign Language"
     override val native: List[String] = List.empty[String]
@@ -45895,12 +43777,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object XKL_MAINSTREAM_KENYAH extends LanguageCode(value = "xkl") {
     override val name = "Mainstream Kenyah"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object XKM_MAHAKAM_KENYAH extends LanguageCode(value = "xkm") {
-    override val name = "Mahakam Kenyah"
-    override val native: List[String] = List("Mahakam Kenyah")
     override val iso639_1: Option[String] = None
   }
 
@@ -46105,12 +43981,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object XMH_KUGU_MUMINH extends LanguageCode(value = "xmh") {
     override val name = "Kugu-Muminh"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object XMI_MIARRA extends LanguageCode(value = "xmi") {
-    override val name = "Miarrã"
-    override val native: List[String] = List("Miarrã")
     override val iso639_1: Option[String] = None
   }
 
@@ -46600,12 +44470,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object XRQ_KARRANGA extends LanguageCode(value = "xrq") {
-    override val name = "Karranga"
-    override val native: List[String] = List("Karranga")
-    override val iso639_1: Option[String] = None
-  }
-
   case object XRR_RAETIC extends LanguageCode(value = "xrr") {
     override val name = "Raetic"
     override val native: List[String] = List.empty[String]
@@ -46678,12 +44542,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object XSK_SAKAN extends LanguageCode(value = "xsk") {
-    override val name = "Sakan"
-    override val native: List[String] = List("Sakan")
-    override val iso639_1: Option[String] = None
-  }
-
   case object XSL_SOUTH_SLAVEY extends LanguageCode(value = "xsl") {
     override val name = "South Slavey"
     override val native: List[String] = List("ᑌᓀᒐ")
@@ -46723,18 +44581,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object XSR_SHERPA extends LanguageCode(value = "xsr") {
     override val name = "Sherpa"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object XSS_ASSAN extends LanguageCode(value = "xss") {
-    override val name = "Assan"
-    override val native: List[String] = List("Assan")
-    override val iso639_1: Option[String] = None
-  }
-
-  case object XST_SILTE extends LanguageCode(value = "xst") {
-    override val name = "Silt'e"
-    override val native: List[String] = List("Silt'e")
     override val iso639_1: Option[String] = None
   }
 
@@ -46888,12 +44734,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object XTZ_TASMANIAN extends LanguageCode(value = "xtz") {
-    override val name = "Tasmanian"
-    override val native: List[String] = List("Tasmanian")
-    override val iso639_1: Option[String] = None
-  }
-
   case object XUA_ALU_KURUMBA extends LanguageCode(value = "xua") {
     override val name = "Alu Kurumba"
     override val native: List[String] = List.empty[String]
@@ -46909,12 +44749,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object XUD_UMIIDA extends LanguageCode(value = "xud") {
     override val name = "Umiida"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object XUF_KUNFAL extends LanguageCode(value = "xuf") {
-    override val name = "Kunfal"
-    override val native: List[String] = List("Kunfal")
     override val iso639_1: Option[String] = None
   }
 
@@ -47338,12 +45172,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object YBD_YANGBYE extends LanguageCode(value = "ybd") {
-    override val name = "Yangbye"
-    override val native: List[String] = List("Yangbye")
-    override val iso639_1: Option[String] = None
-  }
-
   case object YBE_WEST_YUGUR extends LanguageCode(value = "ybe") {
     override val name = "West Yugur"
     override val native: List[String] = List.empty[String]
@@ -47470,12 +45298,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object YDS_YIDDISH_SIGN_LANGUAGE extends LanguageCode(value = "yds") {
-    override val name = "Yiddish Sign Language"
-    override val native: List[String] = List("Yiddish Sign Language")
-    override val iso639_1: Option[String] = None
-  }
-
   case object YEA_RAVULA extends LanguageCode(value = "yea") {
     override val name = "Ravula"
     override val native: List[String] = List.empty[String]
@@ -47509,12 +45331,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object YEL_YELA extends LanguageCode(value = "yel") {
     override val name = "Yela"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object YEN_YENDANG extends LanguageCode(value = "yen") {
-    override val name = "Yendang"
-    override val native: List[String] = List("Yendang")
     override val iso639_1: Option[String] = None
   }
 
@@ -47638,12 +45454,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object YIB_YINGLISH extends LanguageCode(value = "yib") {
-    override val name = "Yinglish"
-    override val native: List[String] = List("Yinglish")
-    override val iso639_1: Option[String] = None
-  }
-
   case object YID_YIDDISH extends LanguageCode(value = "yid") {
     override val name = "Yiddish"
     override val native: List[String] = List("אידיש")
@@ -47704,12 +45514,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object YIO_DAYAO_YI extends LanguageCode(value = "yio") {
-    override val name = "Dayao Yi"
-    override val native: List[String] = List("Dayao Yi")
-    override val iso639_1: Option[String] = None
-  }
-
   case object YIP_PHOLO extends LanguageCode(value = "yip") {
     override val name = "Pholo"
     override val native: List[String] = List.empty[String]
@@ -47755,12 +45559,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object YIX_AXI_YI extends LanguageCode(value = "yix") {
     override val name = "Axi Yi"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object YIY_YIR_YORONT extends LanguageCode(value = "yiy") {
-    override val name = "Yir Yoront"
-    override val native: List[String] = List("Yir Yoront")
     override val iso639_1: Option[String] = None
   }
 
@@ -47920,12 +45718,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object YMA_YAMPHE extends LanguageCode(value = "yma") {
-    override val name = "Yamphe"
-    override val native: List[String] = List("Yamphe")
-    override val iso639_1: Option[String] = None
-  }
-
   case object YMB_YAMBES extends LanguageCode(value = "ymb") {
     override val name = "Yambes"
     override val native: List[String] = List.empty[String]
@@ -47965,12 +45757,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object YMI_MOJI extends LanguageCode(value = "ymi") {
     override val name = "Moji"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object YMJ_MUJI_YI extends LanguageCode(value = "ymj") {
-    override val name = "Muji Yi"
-    override val native: List[String] = List("Muji Yi")
     override val iso639_1: Option[String] = None
   }
 
@@ -48028,12 +45814,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object YMT_MATOR_TAYGI_KARAGAS extends LanguageCode(value = "ymt") {
-    override val name = "Mator-Taygi-Karagas"
-    override val native: List[String] = List("Mator-Taygi-Karagas")
-    override val iso639_1: Option[String] = None
-  }
-
   case object YMX_NORTHERN_MUJI extends LanguageCode(value = "ymx") {
     override val name = "Northern Muji"
     override val native: List[String] = List.empty[String]
@@ -48073,12 +45853,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object YNG_YANGO extends LanguageCode(value = "yng") {
     override val name = "Yango"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object YNH_YANGHO extends LanguageCode(value = "ynh") {
-    override val name = "Yangho"
-    override val native: List[String] = List("Yangho")
     override val iso639_1: Option[String] = None
   }
 
@@ -48172,12 +45946,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = Some("yo")
   }
 
-  case object YOS_YOS extends LanguageCode(value = "yos") {
-    override val name = "Yos"
-    override val native: List[String] = List("Yos")
-    override val iso639_1: Option[String] = None
-  }
-
   case object YOT_YOTTI extends LanguageCode(value = "yot") {
     override val name = "Yotti"
     override val native: List[String] = List.empty[String]
@@ -48220,12 +45988,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object YPL_PULA_YI extends LanguageCode(value = "ypl") {
-    override val name = "Pula Yi"
-    override val native: List[String] = List("Pula Yi")
-    override val iso639_1: Option[String] = None
-  }
-
   case object YPM_PHUMA extends LanguageCode(value = "ypm") {
     override val name = "Phuma"
     override val native: List[String] = List.empty[String]
@@ -48250,12 +46012,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object YPW_PUWA_YI extends LanguageCode(value = "ypw") {
-    override val name = "Puwa Yi"
-    override val native: List[String] = List("Puwa Yi")
-    override val iso639_1: Option[String] = None
-  }
-
   case object YPZ_PHUZA extends LanguageCode(value = "ypz") {
     override val name = "Phuza"
     override val native: List[String] = List.empty[String]
@@ -48277,12 +46033,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object YRE_YAOURE extends LanguageCode(value = "yre") {
     override val name = "Yaouré"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object YRI_YARI extends LanguageCode(value = "yri") {
-    override val name = "Yarí"
-    override val native: List[String] = List("Yarí")
     override val iso639_1: Option[String] = None
   }
 
@@ -48526,21 +46276,9 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object YUS_MAYA_CHAN_SANTA_CRUZ extends LanguageCode(value = "yus") {
-    override val name = "Maya, Chan Santa Cruz"
-    override val native: List[String] = List("Maya, Chan Santa Cruz")
-    override val iso639_1: Option[String] = None
-  }
-
   case object YUT_YOPNO extends LanguageCode(value = "yut") {
     override val name = "Yopno"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object YUU_YUGH extends LanguageCode(value = "yuu") {
-    override val name = "Yugh"
-    override val native: List[String] = List("Yugh")
     override val iso639_1: Option[String] = None
   }
 
@@ -48595,12 +46333,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object YWL_WESTERN_LALU extends LanguageCode(value = "ywl") {
     override val name = "Western Lalu"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object YWM_WUMENG_YI extends LanguageCode(value = "ywm") {
-    override val name = "Wumeng Yi"
-    override val native: List[String] = List("Wumeng Yi")
     override val iso639_1: Option[String] = None
   }
 
@@ -48673,12 +46405,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object YXY_YABULA_YABULA extends LanguageCode(value = "yxy") {
     override val name = "Yabula Yabula"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object YYM_YUANJIANG_MOJIANG_YI extends LanguageCode(value = "yym") {
-    override val name = "Yuanjiang-Mojiang Yi"
-    override val native: List[String] = List("Yuanjiang-Mojiang Yi")
     override val iso639_1: Option[String] = None
   }
 
@@ -49072,12 +46798,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object ZIR_ZIRIYA extends LanguageCode(value = "zir") {
-    override val name = "Ziriya"
-    override val native: List[String] = List("Ziriya")
-    override val iso639_1: Option[String] = None
-  }
-
   case object ZIW_ZIGULA extends LanguageCode(value = "ziw") {
     override val name = "Zigula"
     override val native: List[String] = List.empty[String]
@@ -49093,12 +46813,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object ZKA_KAIMBULAWA extends LanguageCode(value = "zka") {
     override val name = "Kaimbulawa"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object ZKB_KOIBAL extends LanguageCode(value = "zkb") {
-    override val name = "Koibal"
-    override val native: List[String] = List("Koibal")
     override val iso639_1: Option[String] = None
   }
 
@@ -49672,12 +47386,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
     override val iso639_1: Option[String] = None
   }
 
-  case object ZTC_LACHIRIOAG_ZAPOTEC extends LanguageCode(value = "ztc") {
-    override val name = "Lachirioag Zapotec"
-    override val native: List[String] = List("Lachirioag Zapotec")
-    override val iso639_1: Option[String] = None
-  }
-
   case object ZTE_ELOTEPEC_ZAPOTEC extends LanguageCode(value = "zte") {
     override val name = "Elotepec Zapotec"
     override val native: List[String] = List.empty[String]
@@ -49747,12 +47455,6 @@ object LanguageCode extends StringEnum[LanguageCode] {
   case object ZTY_YATEE_ZAPOTEC extends LanguageCode(value = "zty") {
     override val name = "Yatee Zapotec"
     override val native: List[String] = List.empty[String]
-    override val iso639_1: Option[String] = None
-  }
-
-  case object ZUA_ZEEM extends LanguageCode(value = "zua") {
-    override val name = "Zeem"
-    override val native: List[String] = List("Zeem")
     override val iso639_1: Option[String] = None
   }
 

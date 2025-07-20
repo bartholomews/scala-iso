@@ -15,8 +15,10 @@ object ParseHtmlTableTask extends App {
     if (args.isEmpty) allLetters
     else args.filter(arg => arg.length == 1 && arg.head.isLetter).map(_.toLowerCase)
   val officialLanguageCodes = loadOfficialLanguageCodes()
+  val retiredLanguageCodes = loadRetiredLanguageCodes()
   val languageCodes = processAllLetters()
-  generateOutputFiles(languageCodes)
+  val filteredLanguageCodes = languageCodes.filterNot(dto => retiredLanguageCodes.contains(dto.iso639_3))
+  generateOutputFiles(filteredLanguageCodes)
 
   def processAllLetters(): List[LanguageCodeDto] = {
     val allLanguageCodesFile = new File("src/test/resources/pseudo-scala/all-language-codes.txt")
@@ -324,6 +326,45 @@ object ParseHtmlTableTask extends App {
         println(s"Error loading official language codes: ${e.getMessage}")
         e.printStackTrace()
         Map.empty[String, String]
+    }
+  }
+  
+  def loadRetiredLanguageCodes(): Set[String] = {
+    val tabFilePath = "src/test/resources/iso-639-3_Retirements.tab"
+    val tabFile = new File(tabFilePath)
+
+    if (!tabFile.exists()) {
+      println(s"Warning: ISO 639-3 Retirements tab file not found at $tabFilePath")
+      return Set.empty[String]
+    }
+
+    println("Loading retired ISO 639-3 language codes from tab file...")
+
+    try {
+      val source = Source.fromFile(tabFile, "UTF-8")
+      val result = source
+        .getLines()
+        .drop(1) // Skip header line
+        .map { line =>
+          val fields = line.split("\t")
+          if (fields.length >= 1) {
+            fields(0).trim // The first field is the retired language code
+          } else {
+            println(s"Warning: Invalid line format in retirements tab file: $line")
+            ""
+          }
+        }
+        .filter(_.nonEmpty)
+        .toSet
+
+      source.close()
+      println(s"Loaded ${result.size} retired language codes")
+      result
+    } catch {
+      case e: Exception =>
+        println(s"Error loading retired language codes: ${e.getMessage}")
+        e.printStackTrace()
+        Set.empty[String]
     }
   }
 

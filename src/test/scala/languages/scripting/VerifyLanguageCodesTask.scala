@@ -81,6 +81,34 @@ object VerifyLanguageCodesTask extends App {
   }
 
   println(s"Total missing codes: $totalReverseMissingCodes")
+  
+  println("\n" + "=" * 80)
+  println("LANGUAGE CODES PRESENT IN TAB FILE BUT MISSING FROM SCALA FILE")
+  println("=" * 80 + "\n")
+  
+  val tabNotInScala = findTabNotInScala()
+  println(s"Total codes in tab file but not in Scala file: ${tabNotInScala.size}")
+  
+  if (tabNotInScala.nonEmpty) {
+    val sortedCodes = tabNotInScala.toList.sorted
+    sortedCodes.grouped(5).foreach { group =>
+      println("  " + group.mkString(", "))
+    }
+  }
+  
+  println("\n" + "=" * 80)
+  println("LANGUAGE CODES PRESENT IN SCALA FILE BUT MISSING FROM TAB FILE")
+  println("=" * 80 + "\n")
+  
+  val scalaNotInTab = findScalaNotInTab()
+  println(s"Total codes in Scala file but not in tab file: ${scalaNotInTab.size}")
+  
+  if (scalaNotInTab.nonEmpty) {
+    val sortedCodes = scalaNotInTab.toList.sorted
+    sortedCodes.grouped(5).foreach { group =>
+      println("  " + group.mkString(", "))
+    }
+  }
 
   /**
     * Count entries in the tab file that start with the given letter.
@@ -97,6 +125,31 @@ object VerifyLanguageCodesTask extends App {
       case e: Exception =>
         println(s"Error counting tab entries for letter '$letter': ${e.getMessage}")
         0
+    }
+  }
+  
+  /**
+    * Extract language codes from the tab file.
+    * @return A set of language codes found in the tab file
+    */
+  def extractTabCodes(filePath: String): Set[String] = {
+    try {
+      val file = new File(filePath)
+      if (!file.exists()) {
+        println(s"Tab file not found at $filePath")
+        return Set.empty
+      }
+      
+      val lines = Source.fromFile(filePath).getLines().toList
+      val dataLines = lines.tail // Skip header line
+      dataLines.map { line =>
+        val fields = line.split("\t")
+        fields(0).trim // The first field is the language code
+      }.toSet
+    } catch {
+      case e: Exception =>
+        println(s"Error extracting tab entries: ${e.getMessage}")
+        Set.empty
     }
   }
 
@@ -176,6 +229,28 @@ object VerifyLanguageCodesTask extends App {
         0
     }
   }
+  
+  /**
+    * Extract language codes from the scala code file.
+    * @return A set of language codes found in the scala code file
+    */
+  def extractScalaCodes(filePath: String): Set[String] = {
+    try {
+      val file = new File(filePath)
+      if (!file.exists()) {
+        println(s"Scala code file not found at $filePath")
+        return Set.empty
+      }
+
+      val content = Source.fromFile(filePath).getLines().mkString("\n")
+      val caseObjectPattern = """case object [A-Z0-9_]+ extends LanguageCode\(value = "([^"]+)"\)""".r
+      caseObjectPattern.findAllMatchIn(content).map(_.group(1)).toSet
+    } catch {
+      case e: Exception =>
+        println(s"Error extracting scala code entries: ${e.getMessage}")
+        Set.empty
+    }
+  }
 
   /**
     * Find language codes that are present in the HTML file but missing from the pseudo-scala file.
@@ -199,5 +274,25 @@ object VerifyLanguageCodesTask extends App {
     val htmlCodes = extractHtmlCodes(htmlFilePath, letter)
     val pseudoScalaCodes = extractPseudoScalaCodes(pseudoScalaFilePath)
     pseudoScalaCodes.diff(htmlCodes)
+  }
+  
+  /**
+    * Find language codes that are present in the tab file but missing from the Scala file.
+    * @return A set of language codes that are in tab file but not in Scala file
+    */
+  def findTabNotInScala(): Set[String] = {
+    val tabCodes = extractTabCodes(tabFilePath)
+    val scalaCodes = extractScalaCodes(scalaCodePath)
+    tabCodes.diff(scalaCodes)
+  }
+  
+  /**
+    * Find language codes that are present in the Scala file but missing from the tab file.
+    * @return A set of language codes that are in Scala file but not in tab file
+    */
+  def findScalaNotInTab(): Set[String] = {
+    val tabCodes = extractTabCodes(tabFilePath)
+    val scalaCodes = extractScalaCodes(scalaCodePath)
+    scalaCodes.diff(tabCodes)
   }
 }
