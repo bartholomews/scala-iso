@@ -3,3 +3,5 @@ target/*
 project/target
 project/project
 .bsp
+src/test/resources/pseudo-scala
+src/test/resources/wikipedia

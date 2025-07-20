@@ -36,5 +36,9 @@ libraryDependencies ++= Seq(
   // https://github.com/lloydmeta/enumeratum/releases
   "com.beachape" %% "enumeratum" % "1.9.0",
   // https://github.com/circe/circe/releases
-  "io.circe" %% "circe-parser" % "0.14.14" % Test
+  "io.circe" %% "circe-parser" % "0.14.14" % Test,
+  // HTTP client for fetching Wikipedia pages
+  "org.scalaj" %% "scalaj-http" % "2.4.2" % Test,
+  // HTML parsing library (optional, as we're using simple string operations in the code)
+  "org.jsoup" % "jsoup" % "1.17.2" % Test
 )
