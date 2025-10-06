@@ -36,5 +36,9 @@ libraryDependencies ++= Seq(
   // https://github.com/lloydmeta/enumeratum/releases
   "com.beachape" %% "enumeratum" % "1.9.0",
   // https://github.com/circe/circe/releases
-  "io.circe" %% "circe-parser" % "0.14.14" % Test
+  "io.circe" %% "circe-parser" % "0.14.14" % Test,
+  // HTML parsing library (optional, as we're using simple string operations in the code)
+  "org.jsoup" % "jsoup" % "1.17.2" % Test,
+  // ScalaTest for unit testing
+  "org.scalatest" %% "scalatest" % "3.2.18" % Test
 )
